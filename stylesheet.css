@@ -9,17 +9,33 @@ html, body, img, h1, p, ul, li, div, a {
 
 body {
   background-image: url('/images/Backdrop.jpg');
+  background-attachment: fixed;
   background-size:auto;
   overflow-x: hidden;
 }
 
 h1 {
   font-family: 'Roboto Mono', monospace;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5em;
 }
 
 p, a, li {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
+  font-size: 1em;
+  filter: drop-shadow(0px 0px 0px black);
+  transition: .5s
+}
+
+a:hover {
+  filter: drop-shadow(5px 5px 2px rgba(0,0,0,.5));
+  transform: translateY(-2px);
+  transition: .1s;
 }
 
 .splash {
@@ -100,6 +116,7 @@ p, a, li {
 }
 
 .splash a {
+  font-size: 2em;
   z-index: 25;
   position: absolute;
   top: 50%;
@@ -151,14 +168,29 @@ p, a, li {
 }
 
 .nav-bar {
+  width: 75%;
+  margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
+@keyframes head-spin {
+  0% {transform: rotate(0deg);}
+  1% {transform: rotate(-5deg);}
+  5% {transform: rotate(365deg);}
+  6% {transform: rotate(360deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.nav-bar img {
+  height: 50px;
+  animation: head-spin 30s ease-in-out infinite;
+}
+
 .about {
-  padding: 10vw;
-  padding-top: 2vw;
+  width: 75%;
+  margin: auto;
   background-attachment: local;
 
 }
@@ -177,10 +209,83 @@ p, a, li {
   left: 0;
   height: 100vh;
   width: 100vw;
-  background-image: url('/images/CD.jpg');
+  background-image: url('/images/CD.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
-  opacity: .3;
-  filter: blur(2px);
+  opacity: .5;
+}
+
+.resume {
+  width: 75%;
+  margin: auto;
+}
+
+.resume-header {
+  display: flex;
+  align-items: center;
+}
+
+.resume i {
+  margin-left: 20px;
+}
+
+.resume-body {
+  margin-top: 2em;
+  display: flex;
+}
+
+.resume-left {
+  flex: 1;
+  height: 100%;
+  margin-right: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-left h1 {
+  border-bottom: 1px solid white;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.resume-right {
+  flex: 6;
+  margin-bottom: 20px;
+}
+
+.resume svg {
+  margin: 5px;
+  height: 50px;
+  filter: saturate(0) brightness(500%) grayscale(100%) drop-shadow(0px 0px 0px black);
+  transition: .5s;
+}
+
+.resume svg:hover {
+  margin: 0px;
+  height: 60px;
+  filter: saturate(1) brightness(100%) grayscale(0%) drop-shadow(5px 5px 2px rgba(0,0,0,.5));
+  transition: .1s;
+}
+
+.resume-right p {
+  margin-bottom: 5px;
+}
+
+.resume li {
+  margin-top: 5px;
+  list-style: disc;
+}
+
+.resume-right h1 {
+  margin-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid white;
 }

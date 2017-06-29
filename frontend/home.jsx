@@ -2,6 +2,8 @@ import React from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
 
 import Splash from './splash';
+import Resume from './resume';
+import Web from './web'
 
 const NavBar = ({path}) => {
   console.log(path)
@@ -13,8 +15,11 @@ const NavBar = ({path}) => {
       </Link>
       <Link to='/about'>about</Link>
       <Link to='/resume'>resume</Link>
-      <Link to='/video'>video</Link>
       <Link to='/web'>web</Link>
+      <Link to='/video'>video</Link>
+      <a href="mailto:r.grey.keith@gmail.com?Subject=I%20Love%20You" target="_top">
+        <i className="fa fa-envelope-o" aria-hidden="true"></i>
+      </a>
     </div>
   )
 }
@@ -45,26 +50,19 @@ const About = () => {
   )
 }
 
-const Resume  = () => {
-  return (
-    <div className='resume'>
-    </div>
-  )
-}
-
 const App = ({location}) => (
   <div id='app'>
     <Route path='/' render={({location}) => {
-        if (location.pathname == '/') {
+        if (location.pathname === '/') {
           return (<Splash/>)
         } else {
           return (<NavBar path={location.pathname}/>)
         }
       }}/>
     <Route path='/about' component={About} />
-    <Route path='/resume' render={() => <h1>Resume</h1>} />
+    <Route path='/resume' component={Resume} />
     <Route path='/video' render={() => <h1>Video</h1>} />
-    <Route path='/web' render={() => <h1>Web</h1>} />
+    <Route path='/web' component={Web} />
   </div>
 )
 

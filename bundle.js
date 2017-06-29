@@ -1200,7 +1200,7 @@ if (process.env.NODE_ENV !== 'production') {
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(120)();
+  module.exports = __webpack_require__(121)();
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -1228,7 +1228,7 @@ if (process.env.NODE_ENV !== 'production') {
 var debugTool = null;
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactDebugTool = __webpack_require__(149);
+  var ReactDebugTool = __webpack_require__(150);
   debugTool = ReactDebugTool;
 }
 
@@ -1240,23 +1240,23 @@ module.exports = { debugTool: debugTool };
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MemoryRouter__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MemoryRouter__ = __webpack_require__(204);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_0__MemoryRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Prompt__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Prompt__ = __webpack_require__(205);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__Prompt__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Redirect__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Redirect__ = __webpack_require__(206);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_2__Redirect__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Route__ = __webpack_require__(90);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_3__Route__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(56);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__Router__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__StaticRouter__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__StaticRouter__ = __webpack_require__(207);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_5__StaticRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Switch__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Switch__ = __webpack_require__(208);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_6__Switch__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__matchPath__ = __webpack_require__(57);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_7__matchPath__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__withRouter__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__withRouter__ = __webpack_require__(209);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_8__withRouter__["a"]; });
 
 
@@ -2777,7 +2777,7 @@ module.exports = DOMLazyTree;
 
 
 
-var ReactRef = __webpack_require__(163);
+var ReactRef = __webpack_require__(164);
 var ReactInstrumentation = __webpack_require__(11);
 
 var warning = __webpack_require__(2);
@@ -2953,16 +2953,16 @@ module.exports = ReactReconciler;
 
 var _assign = __webpack_require__(4);
 
-var ReactChildren = __webpack_require__(211);
+var ReactChildren = __webpack_require__(212);
 var ReactComponent = __webpack_require__(58);
-var ReactPureComponent = __webpack_require__(216);
-var ReactClass = __webpack_require__(212);
-var ReactDOMFactories = __webpack_require__(213);
+var ReactPureComponent = __webpack_require__(217);
+var ReactClass = __webpack_require__(213);
+var ReactDOMFactories = __webpack_require__(214);
 var ReactElement = __webpack_require__(18);
-var ReactPropTypes = __webpack_require__(214);
-var ReactVersion = __webpack_require__(217);
+var ReactPropTypes = __webpack_require__(215);
+var ReactVersion = __webpack_require__(218);
 
-var onlyChild = __webpack_require__(220);
+var onlyChild = __webpack_require__(221);
 var warning = __webpack_require__(2);
 
 var createElement = ReactElement.createElement;
@@ -4018,10 +4018,10 @@ module.exports = EventPluginRegistry;
 var _assign = __webpack_require__(4);
 
 var EventPluginRegistry = __webpack_require__(31);
-var ReactEventEmitterMixin = __webpack_require__(153);
+var ReactEventEmitterMixin = __webpack_require__(154);
 var ViewportMetrics = __webpack_require__(79);
 
-var getVendorPrefixedEventName = __webpack_require__(188);
+var getVendorPrefixedEventName = __webpack_require__(189);
 var isEventSupported = __webpack_require__(53);
 
 /**
@@ -4987,11 +4987,11 @@ exports.locationsAreEqual = exports.createLocation = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _resolvePathname = __webpack_require__(222);
+var _resolvePathname = __webpack_require__(223);
 
 var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
 
-var _valueEqual = __webpack_require__(223);
+var _valueEqual = __webpack_require__(224);
 
 var _valueEqual2 = _interopRequireDefault(_valueEqual);
 
@@ -5168,7 +5168,7 @@ exports.default = createTransitionManager;
 
 
 var DOMLazyTree = __webpack_require__(21);
-var Danger = __webpack_require__(126);
+var Danger = __webpack_require__(127);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactInstrumentation = __webpack_require__(11);
 
@@ -7021,7 +7021,7 @@ Router.childContextTypes = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_path_to_regexp__);
 
 
@@ -7593,7 +7593,7 @@ var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
 
 var ReactPropTypesSecret = __webpack_require__(66);
-var checkPropTypes = __webpack_require__(119);
+var checkPropTypes = __webpack_require__(120);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -8412,7 +8412,7 @@ var DOMProperty = __webpack_require__(16);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactInstrumentation = __webpack_require__(11);
 
-var quoteAttributeValueForBrowser = __webpack_require__(189);
+var quoteAttributeValueForBrowser = __webpack_require__(190);
 var warning = __webpack_require__(2);
 
 var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
@@ -9016,9 +9016,9 @@ module.exports = ReactHostComponent;
 
 
 
-var ReactDOMSelection = __webpack_require__(144);
+var ReactDOMSelection = __webpack_require__(145);
 
-var containsNode = __webpack_require__(101);
+var containsNode = __webpack_require__(102);
 var focusNode = __webpack_require__(61);
 var getActiveElement = __webpack_require__(62);
 
@@ -9153,12 +9153,12 @@ var React = __webpack_require__(23);
 var ReactBrowserEventEmitter = __webpack_require__(32);
 var ReactCurrentOwner = __webpack_require__(14);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDOMContainerInfo = __webpack_require__(136);
-var ReactDOMFeatureFlags = __webpack_require__(138);
+var ReactDOMContainerInfo = __webpack_require__(137);
+var ReactDOMFeatureFlags = __webpack_require__(139);
 var ReactFeatureFlags = __webpack_require__(73);
 var ReactInstanceMap = __webpack_require__(28);
 var ReactInstrumentation = __webpack_require__(11);
-var ReactMarkupChecksum = __webpack_require__(158);
+var ReactMarkupChecksum = __webpack_require__(159);
 var ReactReconciler = __webpack_require__(22);
 var ReactUpdateQueue = __webpack_require__(48);
 var ReactUpdates = __webpack_require__(13);
@@ -9965,11 +9965,11 @@ module.exports = getTextContentAccessor;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(4);
 
-var ReactCompositeComponent = __webpack_require__(133);
+var ReactCompositeComponent = __webpack_require__(134);
 var ReactEmptyComponent = __webpack_require__(72);
 var ReactHostComponent = __webpack_require__(74);
 
-var getNextDebugID = __webpack_require__(219);
+var getNextDebugID = __webpack_require__(220);
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
 
@@ -10213,9 +10213,9 @@ module.exports = setTextContent;
 var _prodInvariant = __webpack_require__(3);
 
 var ReactCurrentOwner = __webpack_require__(14);
-var REACT_ELEMENT_TYPE = __webpack_require__(152);
+var REACT_ELEMENT_TYPE = __webpack_require__(153);
 
-var getIteratorFn = __webpack_require__(186);
+var getIteratorFn = __webpack_require__(187);
 var invariant = __webpack_require__(1);
 var KeyEscapeUtils = __webpack_require__(44);
 var warning = __webpack_require__(2);
@@ -10484,31 +10484,31 @@ Link.contextTypes = {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(192);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(193);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(88);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(194);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(195);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(196);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(197);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(198);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(199);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(200);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(201);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(202);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(203);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
 
 
@@ -10734,7 +10734,7 @@ var ReactCurrentOwner = __webpack_require__(14);
 var ReactComponentTreeHook = __webpack_require__(8);
 var ReactElement = __webpack_require__(18);
 
-var checkReactTypeSpec = __webpack_require__(218);
+var checkReactTypeSpec = __webpack_require__(219);
 
 var canDefineProperty = __webpack_require__(37);
 var getIteratorFn = __webpack_require__(94);
@@ -11059,9 +11059,17 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(89);
 
-var _splash = __webpack_require__(98);
+var _splash = __webpack_require__(99);
 
 var _splash2 = _interopRequireDefault(_splash);
+
+var _resume = __webpack_require__(98);
+
+var _resume2 = _interopRequireDefault(_resume);
+
+var _web = __webpack_require__(225);
+
+var _web2 = _interopRequireDefault(_web);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11090,13 +11098,18 @@ var NavBar = function NavBar(_ref) {
     ),
     _react2.default.createElement(
       _reactRouterDom.Link,
+      { to: '/web' },
+      'web'
+    ),
+    _react2.default.createElement(
+      _reactRouterDom.Link,
       { to: '/video' },
       'video'
     ),
     _react2.default.createElement(
-      _reactRouterDom.Link,
-      { to: '/web' },
-      'web'
+      'a',
+      { href: 'mailto:r.grey.keith@gmail.com?Subject=I%20Love%20You', target: '_top' },
+      _react2.default.createElement('i', { className: 'fa fa-envelope-o', 'aria-hidden': 'true' })
     )
   );
 };
@@ -11193,10 +11206,6 @@ var About = function About() {
   );
 };
 
-var Resume = function Resume() {
-  return _react2.default.createElement('div', { className: 'resume' });
-};
-
 var App = function App(_ref2) {
   var location = _ref2.location;
   return _react2.default.createElement(
@@ -11205,20 +11214,14 @@ var App = function App(_ref2) {
     _react2.default.createElement(_reactRouterDom.Route, { path: '/', render: function render(_ref3) {
         var location = _ref3.location;
 
-        if (location.pathname == '/') {
+        if (location.pathname === '/') {
           return _react2.default.createElement(_splash2.default, null);
         } else {
           return _react2.default.createElement(NavBar, { path: location.pathname });
         }
       } }),
     _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: About }),
-    _react2.default.createElement(_reactRouterDom.Route, { path: '/resume', render: function render() {
-        return _react2.default.createElement(
-          'h1',
-          null,
-          'Resume'
-        );
-      } }),
+    _react2.default.createElement(_reactRouterDom.Route, { path: '/resume', component: _resume2.default }),
     _react2.default.createElement(_reactRouterDom.Route, { path: '/video', render: function render() {
         return _react2.default.createElement(
           'h1',
@@ -11226,13 +11229,7 @@ var App = function App(_ref2) {
           'Video'
         );
       } }),
-    _react2.default.createElement(_reactRouterDom.Route, { path: '/web', render: function render() {
-        return _react2.default.createElement(
-          'h1',
-          null,
-          'Web'
-        );
-      } })
+    _react2.default.createElement(_reactRouterDom.Route, { path: '/web', component: _web2.default })
   );
 };
 
@@ -11253,7 +11250,7 @@ exports.default = Home;
 "use strict";
 
 
-module.exports = __webpack_require__(134);
+module.exports = __webpack_require__(135);
 
 
 /***/ }),
@@ -11283,6 +11280,540 @@ document.addEventListener('DOMContentLoaded', function () {
 
 /***/ }),
 /* 98 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(7);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(89);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Resume = function Resume() {
+  return _react2.default.createElement(
+    'div',
+    { className: 'resume' },
+    _react2.default.createElement(
+      'div',
+      { className: 'resume-header' },
+      _react2.default.createElement(
+        'h1',
+        null,
+        'grey.KEITH'
+      ),
+      _react2.default.createElement('i', { className: 'fa fa-github fa-2x', 'aria-hidden': 'true' }),
+      _react2.default.createElement('i', { className: 'fa fa-linkedin-square fa-2x', 'aria-hidden': 'true' }),
+      _react2.default.createElement('i', { className: 'fa fa-angellist fa-2x', 'aria-hidden': 'true' }),
+      _react2.default.createElement('i', { className: 'fa fa-youtube fa-2x', 'aria-hidden': 'true' })
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'resume-body' },
+      _react2.default.createElement(
+        'div',
+        { className: 'resume-left' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'skills'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'skills' },
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { className: 'icon', fill: '#F0DB4F', d: 'M2 1v125h125v-125h-125zm66.119 106.513c-1.845 3.749-5.367 6.212-9.448 7.401-6.271 1.44-12.269.619-16.731-2.059-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667 1.071 1.214 2.034 2.261 3.474 4.319 4.485 2.022.69 6.461 1.131 8.175-2.427 1.047-1.81.714-7.628.714-14.065-.001-10.115.046-20.188.046-30.188h11.709c0 11 .06 21.418 0 32.152.025 6.58.596 12.446-2.07 17.361zm48.574-3.308c-4.07 13.922-26.762 14.374-35.83 5.176-1.916-2.165-3.117-3.296-4.26-5.795 4.819-2.772 4.819-2.772 9.508-5.485 2.547 3.915 4.902 6.068 9.139 6.949 5.748.702 11.531-1.273 10.234-7.378-1.333-4.986-11.77-6.199-18.873-11.531-7.211-4.843-8.901-16.611-2.975-23.335 1.975-2.487 5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756 5.355.904.916 1.642 1.904 3.022 4.045-3.772 2.404-3.76 2.381-9.163 5.879-1.154-2.486-3.069-4.046-5.093-4.724-3.142-.952-7.104.083-7.926 3.403-.285 1.023-.226 1.975.227 3.665 1.273 2.903 5.545 4.165 9.377 5.926 11.031 4.474 14.756 9.271 15.672 14.981.882 4.916-.213 8.105-.38 8.581z' })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { fill: '#0868AC', d: 'M47.961 79.02l.193.094.344.166c.439.209.882.416 1.329.615l.281.125c.513.225 1.029.439 1.551.645l.378.148c.482.188.972.37 1.463.543l.184.063c.539.188 1.083.363 1.632.534l.395.117c.558.169 1.109.37 1.685.477 36.554 6.665 47.171-21.967 47.171-21.967-8.918 11.618-24.747 14.683-39.745 11.271-.568-.128-1.12-.306-1.674-.47l-.417-.126c-.541-.166-1.079-.341-1.612-.524l-.221-.08c-.478-.168-.951-.346-1.421-.527l-.398-.156c-.516-.203-1.028-.416-1.534-.638l-.307-.136c-.435-.197-.866-.396-1.294-.602l-.375-.18c-.336-.164-.669-.339-1.001-.51l-.668-.35c-.405-.217-.803-.442-1.199-.673l-.405-.226c-.527-.311-1.048-.632-1.563-.958l-.421-.28c-.374-.241-.746-.486-1.112-.739l-.358-.252c-.354-.25-.704-.503-1.051-.76l-.466-.353c-.318-.243-.635-.488-.948-.74l-.423-.34c-.398-.328-.792-.657-1.182-.995l-.129-.109c-.423-.368-.836-.747-1.244-1.127l-.35-.337c-.303-.287-.6-.577-.893-.874l-.35-.35c-.372-.381-.737-.767-1.095-1.158l-.054-.058c-.379-.414-.749-.837-1.111-1.264l-.291-.346c-.27-.325-.538-.655-.799-.988l-.293-.364c-.315-.408-.622-.815-.923-1.229-8.326-11.358-11.318-27.023-4.663-39.888l-5.899 7.482c-7.559 10.863-6.617 24.997-.844 36.541l.423.821.271.52.168.299.301.539c.179.316.362.63.55.944l.315.519c.208.336.421.668.64 1l.272.422c.301.448.609.896.926 1.336l.027.035.156.211c.275.379.558.753.844 1.123l.318.404c.255.321.516.641.78.959l.298.355c.355.419.717.835 1.087 1.242l.022.023.042.046c.36.394.73.778 1.104 1.164l.354.357c.29.292.584.579.882.865l.361.343c.397.374.798.741 1.208 1.101l.02.015.21.18c.361.312.729.623 1.099.928l.455.362c.302.242.608.481.916.716l.489.372c.34.25.682.496 1.027.737l.375.266.103.073c.328.226.663.442.998.659l.432.288c.513.325 1.035.646 1.562.956l.432.244c.388.223.777.442 1.172.656l.648.336.84.437zM51.654 42.225c.819 1.174 1.726 2.57 2.813 3.514.394.434.806.856 1.226 1.273l.324.318c.409.396.824.785 1.252 1.164l.052.044.012.013c.475.416.965.816 1.463 1.21l.333.26c.5.383 1.009.759 1.531 1.118l.045.033.698.46.332.22c.373.238.75.472 1.135.694l.16.093c.331.191.667.379 1.003.561l.356.187.702.363.106.048c.482.237.968.465 1.464.682l.323.133c.396.168.797.333 1.199.487l.514.188c.366.136.732.26 1.102.383l.499.16c.526.163 1.045.369 1.593.46 28.222 4.677 34.738-17.054 34.738-17.054-5.874 8.459-17.248 12.494-29.386 9.344-.539-.142-1.071-.295-1.598-.462l-.481-.155c-.375-.121-.748-.25-1.118-.385l-.504-.188c-.405-.156-.807-.317-1.204-.485l-.324-.138c-.498-.217-.989-.445-1.472-.685l-.739-.376-.426-.219c-.314-.17-.626-.348-.934-.527l-.223-.127c-.383-.223-.759-.453-1.132-.689l-.341-.229-.732-.484c-.521-.359-1.027-.734-1.525-1.115l-.343-.271c-5.313-4.193-9.524-9.927-11.527-16.428-2.098-6.74-1.646-14.308 1.989-20.449l-4.466 6.306c-5.466 7.865-5.169 18.396-.905 26.715.714 1.393 1.517 2.747 2.416 4.035zM81.401 32.494l.701.243.309.098c.333.104.662.226 1.005.29 15.583 3.011 19.811-7.997 20.936-9.617-3.703 5.331-9.925 6.61-17.56 4.757-.603-.146-1.266-.363-1.848-.57-.745-.266-1.479-.568-2.193-.91-1.356-.652-2.648-1.441-3.846-2.347-6.832-5.185-11.076-15.072-6.618-23.126l-2.412 3.324c-3.222 4.743-3.539 10.633-1.303 15.869 2.358 5.56 7.19 9.92 12.829 11.989zM66.359 96.295h-4.226c-.234 0-.467.188-.517.417l-1.5 6.94-1.5 6.94c-.049.229-.282.417-.516.417h-2.991c-2.959 0-2.617-2.047-2.011-4.851l.018-.085.066-.354.012-.066.135-.72.145-.771.154-.785.682-3.332.683-3.332c.047-.23-.107-.419-.341-.419h-4.337c-.234 0-.466.188-.514.418l-.933 4.424-.932 4.425-.002.006-.086.412c-1.074 4.903-.79 9.58 5.048 9.727l.17.003h9.163c.234 0 .467-.188.516-.417l1.976-9.289 1.976-9.29c.049-.23-.103-.417-.338-.418zM21.103 96.246h-4.64c-.235 0-.469.188-.521.416l-.44 1.942-.44 1.942c-.051.229.098.416.333.416h4.676c.235 0 .468-.188.518-.417l.425-1.941.425-1.941c.049-.229-.101-.417-.336-.417zM19.757 102.29h-4.677c-.234 0-.469.188-.521.416l-.657 2.91-.656 2.909-.183.834-.631 2.97-.63 2.971c-.049.229-.15.599-.225.821 0 0-.874 2.6-2.343 2.57l-.184-.004-1.271-.023h-.001c-.234-.003-.469.18-.524.407l-.485 2.039-.484 2.038c-.055.228.093.416.326.42.833.01 2.699.031 3.828.031 3.669 0 5.604-2.033 6.843-7.883l1.451-6.714 1.361-6.297c.049-.227-.103-.415-.337-.415zM105.874 100.716l-.194-.801-.191-.82-.097-.414c-.38-1.477-1.495-2.328-3.917-2.328l-3.77-.004-3.472-.005h-3.907c-.234 0-.466.188-.515.417l-.173.816-.204.964-.057.271-1.759 8.24-1.67 7.822c-.05.23-.066.512-.038.626.028.115.479.209.713.209h3.524c.235 0 .532-.042.66-.094s.317-.513.364-.742l.626-3.099.627-3.1.001-.005.084-.413.76-3.56.671-3.144c.05-.229.281-.416.515-.417l11.089-.005c.235.002.383-.185.33-.414zM120.149 93.476l-.854.003h-3.549c-.235 0-.536.159-.667.353l-7.849 11.498c-.132.194-.283.166-.335-.062l-.578-2.533c-.052-.229-.287-.416-.522-.416h-5.045c-.235 0-.374.184-.31.409l2.261 7.921c.064.226.069.596.011.824l-.985 3.833c-.059.228.085.413.32.413h4.987c.234 0 .474-.186.532-.413l.986-3.833c.058-.229.221-.567.363-.755l12.742-16.911c.142-.188.065-.341-.169-.339l-1.339.008zM80.063 103.395v-.004c-.029.254-.264.441-.499.441h-6.397c-.222 0-.334-.15-.301-.336l.006-.015-.004.002.003-.021.029-.109c.611-1.624 1.855-2.69 4.194-2.69 2.634-.001 3.148 1.285 2.969 2.732zm-1.877-7.384c-8.211 0-10.157 4.984-11.249 10.015-1.091 5.128-.998 9.921 7.5 9.921h1.03l.256-.001h.06l1.02-.003h.018c2.244-.009 4.495-.026 5.406-.033.233-.004.461-.191.509-.42l.344-1.681.067-.327.41-2.006c.047-.229-.106-.418-.341-.418h-7.639c-3.039 0-3.941-.807-3.608-3.181h12.211l-.001.001.008-.001c.194-.003.374-.137.445-.315l.029-.106-.001.001c1.813-6.839 1.293-11.445-6.474-11.446zM39.376 103.369l-.116.409v.001l-.922 3.268-.922 3.267c-.063.227-.308.411-.543.411h-4.88c-3.702 0-4.604-2.896-3.702-7.166.901-4.368 2.668-7.083 6.312-7.358 4.98-.376 5.976 3.126 4.773 7.168zm3.348 7.105s2.301-5.588 2.823-8.814c.713-4.319-1.45-10.585-9.804-10.585-8.306 0-11.914 5.981-13.29 12.484-1.376 6.55.427 12.293 8.686 12.246l6.516-.024 6.089-.022c.234-.002.474-.188.534-.414l1.061-4.046c.059-.228-.084-.414-.319-.416l-1.017-.006-1.017-.006c-.199-.001-.313-.131-.289-.302l.027-.095zM83.844 106.733c0 .155-.125.281-.28.281-.154 0-.28-.126-.28-.281 0-.154.125-.279.28-.279.155 0 .28.125.28.279z' })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { fill: '#42e2f4', d: 'M64 81.7c7.3 7.1 14.5 11.3 20.3 11.3 1.9 0 3.7-.4 5.2-1.3 5.2-3 7.1-10.5 5.3-21.2-.3-1.9-.7-3.8-1.2-5.8 2-.6 3.8-1.2 5.6-1.8 10.1-3.9 15.7-9.3 15.7-15.2 0-6-5.6-11.4-15.7-15.2-1.8-.7-3.6-1.3-5.6-1.8.5-2 .9-3.9 1.2-5.8 1.7-10.9-.2-18.5-5.4-21.5-1.5-.9-3.3-1.3-5.2-1.3-5.7 0-13 4.2-20.3 11.3-7.2-7.1-14.4-11.3-20.2-11.3-1.9 0-3.7.4-5.2 1.3-5.2 3-7.1 10.5-5.3 21.2.3 1.9.7 3.8 1.2 5.8-2 .6-3.8 1.2-5.6 1.8-10.1 3.9-15.7 9.3-15.7 15.2 0 6 5.6 11.4 15.7 15.2 1.8.7 3.6 1.3 5.6 1.8-.5 2-.9 3.9-1.2 5.8-1.7 10.7.2 18.3 5.3 21.2 1.5.9 3.3 1.3 5.2 1.3 5.8.2 13-4 20.3-11zm-5.6-13.5c1.8.1 3.7.1 5.6.1 1.9 0 3.8 0 5.6-.1-1.8 2.4-3.7 4.6-5.6 6.7-1.9-2.1-3.8-4.3-5.6-6.7zm-12.4-10.3c1 1.7 1.9 3.3 3 4.9-3.1-.4-6-.9-8.8-1.5.9-2.7 1.9-5.5 3.1-8.3.8 1.6 1.7 3.3 2.7 4.9zm-5.8-24.1c2.8-.6 5.7-1.1 8.8-1.5-1 1.6-2 3.2-3 4.9-1 1.7-1.9 3.3-2.7 5-1.3-2.9-2.3-5.7-3.1-8.4zm5.5 13.7c1.3-2.7 2.7-5.4 4.3-8.1 1.5-2.6 3.2-5.2 4.9-7.8 3-.2 6-.3 9.1-.3 3.2 0 6.2.1 9.1.3 1.8 2.6 3.4 5.2 4.9 7.8 1.6 2.7 3 5.4 4.3 8.1-1.3 2.7-2.7 5.4-4.3 8.1-1.5 2.6-3.2 5.2-4.9 7.8-3 .2-6 .3-9.1.3-3.2 0-6.2-.1-9.1-.3-1.8-2.6-3.4-5.2-4.9-7.8-1.6-2.7-3-5.4-4.3-8.1zm39.1-5.4l-2.7-5c-1-1.7-1.9-3.3-3-4.9 3.1.4 6 .9 8.8 1.5-.9 2.8-1.9 5.6-3.1 8.4zm0 10.8c1.2 2.8 2.2 5.6 3.1 8.3-2.8.6-5.7 1.1-8.8 1.5 1-1.6 2-3.2 3-4.9.9-1.5 1.8-3.2 2.7-4.9zm2.3 34.7c-.8.5-1.8.7-2.9.7-4.9 0-11-4-17-10 2.9-3.1 5.7-6.6 8.5-10.5 4.7-.4 9.2-1.1 13.4-2.1.5 1.8.8 3.6 1.1 5.4 1.4 8.5.3 14.6-3.1 16.5zm5.2-52.7c11.2 3.2 17.9 8.1 17.9 12.6 0 3.9-4.6 7.8-12.7 10.9-1.6.6-3.4 1.2-5.2 1.7-1.3-4.1-2.9-8.3-4.9-12.6 2-4.3 3.7-8.5 4.9-12.6zm-8-28.2c1.1 0 2 .2 2.9.7 3.3 1.9 4.5 7.9 3.1 16.5-.3 1.7-.7 3.5-1.1 5.4-4.2-.9-8.7-1.6-13.4-2.1-2.7-3.9-5.6-7.4-8.5-10.5 6-5.9 12.1-10 17-10zm-14.7 20.1c-1.8-.1-3.7-.1-5.6-.1s-3.8 0-5.6.1c1.8-2.4 3.7-4.6 5.6-6.7 1.9 2.1 3.8 4.4 5.6 6.7zm-28.7-19.4c.8-.5 1.8-.7 2.9-.7 4.9 0 11 4 17 10-2.9 3.1-5.7 6.6-8.5 10.5-4.7.4-9.2 1.1-13.4 2.1-.5-1.8-.8-3.6-1.1-5.4-1.4-8.5-.3-14.5 3.1-16.5zm-5.2 52.7c-11.2-3.2-17.9-8.1-17.9-12.6 0-3.9 4.6-7.8 12.7-10.9 1.6-.6 3.4-1.2 5.2-1.7 1.3 4.1 2.9 8.3 4.9 12.6-2 4.3-3.7 8.6-4.9 12.6zm2.1 11c.3-1.7.7-3.5 1.1-5.4 4.2.9 8.7 1.6 13.4 2.1 2.7 3.9 5.6 7.4 8.5 10.5-6 5.9-12.1 10-17 10-1.1 0-2-.2-2.9-.7-3.4-1.9-4.5-8-3.1-16.5zM33.6 112.3c2.2-2.7 2.3-5.7 1.1-8.7-1.2-3-3.7-4.4-6.8-4.5-3.7-.1-7.5 0-11.2 0h-.7v25.9h3v-9.8h4.7c.6 0 1.1.2 1.4.7l6 9.3c.1.2.4.5.6.5h3.9c-2.4-3.7-4.7-7.2-7.1-10.8 2.1-.3 3.9-1 5.1-2.6zm-14.6-.2v-9.9h1.1c2.3 0 4.7-.1 7 .1 2.7.1 4.6 2.2 4.6 4.9s-2.2 4.8-4.9 4.9c-2.4.1-4.8 0-7.8 0zM57.7 113.4c-1.6-7-8-8.8-12.9-6.6-3.8 1.7-5.5 5-5.6 9.1-.1 3.1.8 5.9 3.2 8 2.7 2.4 6 2.7 9.4 2.1 1.9-.4 3.6-1.3 4.9-2.7-.5-.7-1-1.4-1.5-2-2.8 2.4-5.9 3.2-9.3 1.6-2.2-1.1-3.3-3.8-3.5-5.8h15.5v-1.3c.1-.9 0-1.7-.2-2.4zm-15.1 1.6c-.3-3 2.7-6.2 6-6.2 3.8-.1 6.2 2.2 6.3 6.2h-12.3zM73.3 106.3c-1.5-.3-3.1-.4-4.6-.3-2.4.2-4.5 1.3-6.2 3.1.5.7.9 1.4 1.5 2.2.2-.2.4-.4.6-.5 1.6-1.5 3.5-2.3 5.8-2.1 1.8.1 3.5.7 4 2.5.4 1.4.3 2.9.4 4.4-.3 0-.4-.1-.5-.2-2.4-2-5.1-2.4-8-1.7-2.7.7-4.4 2.8-4.6 5.5-.2 3.1 1.2 5.4 3.9 6.5 1.7.7 3.6.7 5.4.3 1.4-.3 2-1.1 4-2.2v1.3h2.8c0-4 .1-8.9 0-13.5 0-2.9-1.7-4.7-4.5-5.3zm1.4 12.6c-.1.3 0 .6 0 .9 0 2.1-.5 2.8-2.5 3.6-1.4.5-2.9.7-4.4.2-1.7-.5-2.9-2-2.9-3.7-.1-1.7 1-3.4 2.7-3.9 2.3-.8 4.4-.3 6.3 1.1.6.5 1 1 .8 1.8zM90.3 109c2.6-.8 5-.3 6.8 1.9l.3.2c.7-.6 1.3-1.2 2.1-1.9-.3-.3-.4-.5-.6-.8-2.9-3.1-8.6-3.5-12.1-1-4.9 3.6-4.8 10.6-2.4 14.3 2.3 3.5 5.6 4.7 9.5 4.2 2.3-.3 4.2-1.4 5.7-3.3-.7-.6-1.4-1.2-2.1-1.9-.2.2-.3.3-.4.5-2.7 3-7.2 2.7-9.6-.5-1.4-1.9-1.7-4.1-1.3-6.3.2-2.5 1.5-4.5 4.1-5.4zM111.1 122.6c-.2.1-.3.2-.3.2-.8.6-1.6.7-2.5.4-.9-.4-1-1.2-1.1-2v-11.4c0-.2 0 .2.1-.8h3.8v-3h-4v-5h-3v5.4h-2.6c-.2 0-.5.2-.5.4-.1.7 0 1.2 0 2.2h3.2v12.799999999999999c0 1.6.4 3 1.8 3.8 1.5.9 4.4.7 5.7-.4.2-.1.3-.5.3-.6-.3-.6-.6-1.3-.9-2z' })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { fill: '#83CD29', d: 'M112.678 30.334l-44.143-25.605c-2.781-1.584-6.424-1.584-9.227 0l-44.488 25.605c-2.869 1.651-4.82 4.754-4.82 8.073v51.142c0 3.319 1.992 6.423 4.862 8.083l11.729 6.688c5.627 2.772 7.186 2.772 9.746 2.772 8.334 0 12.662-5.039 12.662-13.828v-50.49c.001-.713.446-1.774-.255-1.774h-5.622c-.712 0-2.122 1.061-2.122 1.773v50.49c0 3.896-3.616 7.773-10.202 4.48l-12.122-7.013c-.422-.23-.676-.693-.676-1.181v-51.142c0-.482.463-.966.891-1.213l44.378-25.561c.415-.235 1.002-.235 1.415 0l43.963 25.555c.421.253.354.722.354 1.219v51.142c0 .488.092.963-.323 1.198l-44.133 25.576c-.378.227-.87.227-1.285 0l-11.317-6.749c-.341-.198-.752-.269-1.08-.086-3.145 1.783-3.729 2.02-6.679 3.043-.727.253-1.799.692.408 1.929l14.798 8.754c1.416.82 3.027 1.246 4.647 1.246 1.642 0 3.249-.426 4.666-1.246l43.976-25.582c2.871-1.672 4.322-4.764 4.322-8.083v-51.142c-.001-3.319-1.452-6.414-4.323-8.073zM77.727 81.445c-11.727 0-14.309-3.235-15.17-9.066-.102-.628-.634-1.379-1.274-1.379h-5.73c-.709 0-1.28.86-1.28 1.566 0 7.466 4.06 16.512 23.454 16.512 14.038 0 22.088-5.455 22.088-15.109 0-9.572-6.467-12.084-20.082-13.886-13.762-1.819-15.16-2.738-15.16-5.962 0-2.658 1.184-6.203 11.374-6.203 9.104 0 12.46 1.954 13.841 8.091.119.577.646.991 1.241.991h5.754c.354 0 .691-.143.939-.396.241-.272.367-.613.336-.979-.893-10.569-7.913-15.494-22.112-15.494-12.632 0-20.166 5.334-20.166 14.275 0 9.698 7.497 12.378 19.622 13.577 14.505 1.422 15.633 3.542 15.633 6.395 0 4.956-3.978 7.067-13.308 7.067z' })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { fill: '#E44D26', d: 'M27.854 116.354l-8.043-90.211h88.378l-8.051 90.197-36.192 10.033z' }),
+              _react2.default.createElement('path', { fill: '#F16529', d: 'M64 118.704l29.244-8.108 6.881-77.076h-36.125z' }),
+              _react2.default.createElement('path', { fill: '#EBEBEB', d: 'M64 66.978h-14.641l-1.01-11.331h15.651v-11.064h-27.743l.264 2.969 2.72 30.489h24.759zM64 95.711l-.049.013-12.321-3.328-.788-8.823h-11.107l1.55 17.372 22.664 6.292.051-.015z' }),
+              _react2.default.createElement('path', { fill: '#E44D26', d: 'M28.034 1.627h5.622v5.556h5.144v-5.556h5.623v16.822h-5.623v-5.633h-5.143v5.633h-5.623v-16.822zM51.816 7.206h-4.95v-5.579h15.525v5.579h-4.952v11.243h-5.623v-11.243zM64.855 1.627h5.862l3.607 5.911 3.603-5.911h5.865v16.822h-5.601v-8.338l-3.867 5.981h-.098l-3.87-5.981v8.338h-5.502v-16.822zM86.591 1.627h5.624v11.262h7.907v5.561h-13.531v-16.823z' }),
+              _react2.default.createElement('path', { fill: '#fff', d: 'M63.962 66.978v11.063h13.624l-1.284 14.349-12.34 3.331v11.51l22.682-6.286.166-1.87 2.6-29.127.27-2.97h-2.982zM63.962 44.583v11.064h26.725l.221-2.487.505-5.608.265-2.969z' })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { fill: '#1572B6', d: 'M89.234 5.856h-7.384l7.679 8.333v3.967h-15.816v-4.645h7.678l-7.678-8.333v-3.971h15.521v4.649zm-18.657 0h-7.384l7.679 8.333v3.967h-15.817v-4.645h7.679l-7.679-8.333v-3.971h15.522v4.649zm-18.474.19h-7.968v7.271h7.968v4.839h-13.632v-16.949h13.632v4.839z' }),
+              _react2.default.createElement('path', { fill: '#1572B6', d: 'M27.613 116.706l-8.097-90.813h88.967l-8.104 90.798-36.434 10.102-36.332-10.087z' }),
+              _react2.default.createElement('path', { fill: '#33A9DC', d: 'M64.001 119.072l29.439-8.162 6.926-77.591h-36.365v85.753z' }),
+              _react2.default.createElement('path', { fill: '#fff', d: 'M64 66.22h14.738l1.019-11.405h-15.757v-11.138h27.929000000000002l-.267 2.988-2.737 30.692h-24.925v-11.137z' }),
+              _react2.default.createElement('path', { fill: '#EBEBEB', d: 'M64.067 95.146l-.049.014-12.404-3.35-.794-8.883h-11.178999999999998l1.561 17.488 22.814 6.333.052-.015v-11.587z' }),
+              _react2.default.createElement('path', { fill: '#fff', d: 'M77.792 76.886l-1.342 14.916-12.422 3.353v11.588l22.833-6.328.168-1.882 1.938-21.647h-11.175z' }),
+              _react2.default.createElement('path', { fill: '#EBEBEB', d: 'M64.039 43.677v11.136999999999999h-26.903000000000002l-.224-2.503-.507-5.646-.267-2.988h27.901zM64 66.221v11.138h-12.247l-.223-2.503-.508-5.647-.267-2.988h13.245z' })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { 'fill-rule': 'evenodd', 'clip-rule': 'evenodd', fill: '#CB6699', d: 'M1.219 56.156c0 .703.207 1.167.323 1.618.756 2.933 2.381 5.45 4.309 7.746 2.746 3.272 6.109 5.906 9.554 8.383 2.988 2.148 6.037 4.248 9.037 6.38.515.366 1.002.787 1.561 1.236-.481.26-.881.489-1.297.7-3.959 2.008-7.768 4.259-11.279 6.986-2.116 1.644-4.162 3.391-5.607 5.674-2.325 3.672-3.148 7.584-1.415 11.761.506 1.22 1.278 2.274 2.367 3.053.353.252.749.502 1.162.6 1.058.249 2.136.412 3.207.609l3.033-.002c3.354-.299 6.407-1.448 9.166-3.352 4.312-2.976 7.217-6.966 8.466-12.087.908-3.722.945-7.448-.125-11.153-.099-.344-.224-.681-.354-1.014-.13-.333-.283-.657-.463-1.072l6.876-3.954.103.088c-.125.409-.258.817-.371 1.23-.817 2.984-1.36 6.02-1.165 9.117.208 3.3 1.129 6.389 3.061 9.146 1.562 2.23 5.284 2.313 6.944.075.589-.795 1.16-1.626 1.589-2.513 1.121-2.315 2.159-4.671 3.23-7.011l.187-.428c-.077 1.108-.167 2.081-.208 3.055-.064 1.521.025 3.033.545 4.48.445 1.238 1.202 2.163 2.62 2.326.97.111 1.743-.333 2.456-.896 1.114-.879 2.019-1.965 2.691-3.199 1.901-3.491 3.853-6.961 5.576-10.54 1.864-3.871 3.494-7.855 5.225-11.792l.286-.698c.409 1.607.694 3.181 1.219 4.671.61 1.729 1.365 3.417 2.187 5.058.389.775.344 1.278-.195 1.928-2.256 2.72-4.473 5.473-6.692 8.223-.491.607-.98 1.225-1.389 1.888-.247.403-.411.894-.48 1.364-.133.898.422 1.764 1.383 1.971.878.189 1.813.259 2.708.193 3.097-.228 5.909-1.315 8.395-3.157 3.221-2.386 4.255-5.642 3.475-9.501-.211-1.047-.584-2.065-.947-3.074-.163-.455-.174-.774.123-1.198 2.575-3.677 4.775-7.578 6.821-11.569.081-.157.164-.314.306-.482.663 3.45 1.661 6.775 3.449 9.792-.912.879-1.815 1.676-2.632 2.554-1.799 1.934-3.359 4.034-4.173 6.595-.35 1.104-.619 2.226-.463 3.405.242 1.831 1.742 3.021 3.543 2.604 3.854-.892 7.181-2.708 9.612-5.925 1.636-2.166 1.785-4.582 1.1-7.113-.188-.688-.411-1.365-.651-2.154.951-.295 1.878-.649 2.837-.868 4.979-1.136 9.904-.938 14.702.86 2.801 1.05 5.064 2.807 6.406 5.571 1.639 3.379.733 6.585-2.452 8.721-.297.199-.637.356-.883.605-.151.153-.242.459-.205.67.021.123.346.277.533.275 1.047-.008 1.896-.557 2.711-1.121 2.042-1.413 3.532-3.314 3.853-5.817l.063-.188-.077-1.63c-.031-.094.023-.187.016-.258-.434-3.645-2.381-6.472-5.213-8.688-3.28-2.565-7.153-3.621-11.249-3.788-3.338-.136-6.619.36-9.765 1.503-.897.325-1.786.71-2.688 1.073-.121-.219-.251-.429-.358-.646-.926-1.896-2.048-3.708-2.296-5.882-.176-1.544-.392-3.086-.025-4.613.353-1.469.813-2.913 1.246-4.362.223-.746.066-1.164-.646-1.5-.248-.117-.518-.219-.786-.258-1.75-.254-3.476-.109-5.171.384-.6.175-1.036.511-1.169 1.175-.076.381-.231.746-.339 1.122-.443 1.563-.757 3.156-1.473 4.645-1.794 3.735-3.842 7.329-5.938 10.897-.227.385-.466.763-.752 1.23-.736-1.54-1.521-2.922-1.759-4.542-.269-1.832-.481-3.661-.025-5.479.339-1.356.782-2.687 1.19-4.025.193-.636.104-.97-.472-1.305-.291-.169-.62-.319-.948-.368-1.815-.269-3.603-.128-5.354.438-.543.176-.828.527-.994 1.087-.488 1.652-.904 3.344-1.589 4.915-2.774 6.36-5.628 12.687-8.479 19.013-.595 1.321-1.292 2.596-1.963 3.882-.17.326-.418.613-.63.919-.17-.201-.236-.339-.235-.477.005-.813-.092-1.65.063-2.436.469-2.378 1.009-4.743 1.578-7.099.47-1.946 1.017-3.874 1.538-5.807.175-.647.178-1.252-.287-1.796-.781-.911-2.413-1.111-3.381-.409l-.428.242.083-.69c.204-1.479.245-2.953-.161-4.41-.506-1.816-1.802-2.861-3.686-2.803-.878.027-1.8.177-2.613.497-3.419 1.34-6.048 3.713-8.286 6.568-.203.259-.471.495-.757.654-2.893 1.604-5.795 3.188-8.696 4.778l-3.229 1.769c-.866-.826-1.653-1.683-2.546-2.41-2.727-2.224-5.498-4.393-8.244-6.592-2.434-1.949-4.792-3.979-6.596-6.56-1.342-1.92-2.207-4.021-2.29-6.395-.105-3.025.753-5.789 2.293-8.362 1.97-3.292 4.657-5.934 7.611-8.327 3.125-2.53 6.505-4.678 10.008-6.639 4.901-2.743 9.942-5.171 15.347-6.774 5.542-1.644 11.165-2.585 16.965-1.929 2.28.258 4.494.78 6.527 1.895 1.557.853 2.834 1.97 3.428 3.716.586 1.718.568 3.459.162 5.204-.825 3.534-2.76 6.447-5.195 9.05-3.994 4.267-8.866 7.172-14.351 9.091-3.165 1.107-6.421 1.802-9.765 2.083-2.729.229-5.401-.013-7.985-.962-1.711-.629-3.201-1.591-4.399-2.987-.214-.25-.488-.521-.887-.287-.391.23-.46.602-.329.979.219.626.421 1.278.762 1.838.857 1.405 2.107 2.424 3.483 3.298 2.643 1.681 5.597 2.246 8.66 2.377 4.648.201 9.183-.493 13.654-1.74 6.383-1.78 11.933-4.924 16.384-9.884 3.706-4.13 6.353-8.791 6.92-14.419.277-2.747-.018-5.438-1.304-7.944-1.395-2.715-3.613-4.734-6.265-6.125-3.862-2.025-8.03-3.204-12.332-3.204h-4.31c-5.21 0-10.247 1.493-15.143 3.274-3.706 1.349-7.34 2.941-10.868 4.703-7.683 3.839-14.838 8.468-20.715 14.833-2.928 3.171-5.407 6.67-6.833 10.79-.417 1.206-.813 2.499-1.111 3.746m27.839 36.013c-.333 4.459-2.354 8.074-5.657 11.002-1.858 1.646-3.989 2.818-6.471 3.23-.9.149-1.821.185-2.694-.188-1.245-.532-1.524-1.637-1.548-2.814-.037-1.876.62-3.572 1.521-5.186 1.176-2.104 2.9-3.708 4.741-5.206 2.9-2.361 6.046-4.359 9.268-6.245l.243-.1c.498 1.84.735 3.657.597 5.507zm25.158-19.379c-.235 1.424-.529 2.849-.945 4.229-1.438 4.777-3.285 9.406-5.282 13.973-.369.845-.906 1.616-1.373 2.417-.072.124-.179.231-.283.334-.578.571-1.126.541-1.418-.206-.34-.868-.549-1.797-.729-2.716-.121-.617-.092-1.265-.13-1.897.039-4.494 1.41-8.578 3.736-12.38.959-1.568 2.003-3.062 3.598-4.054.49-.305 1.04-.55 1.595-.706.85-.239 1.372.154 1.231 1.006zm17.164 21.868l6.169-7.203c.257 2.675-4.29 8.015-6.169 7.203zm19.703-4.847c-.436.25-.911.43-1.358.661-.409.212-.544-.002-.556-.354-.008-.239.027-.489.093-.721.833-2.938 2.366-5.446 4.647-7.486l.16-.082c1.085 3.035-.169 6.368-2.986 7.982z' })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { fill: '#D91404', d: 'M82.518 54.655c-12.92 8.326-25.722 16.577-38.862 25.043 19.678 2.687 39.005 5.325 58.715 8.016-6.714-11.181-13.256-22.074-19.853-33.059zM107.927 17.812c-1.735 2.604-3.473 5.207-5.205 7.813-5.95 8.951-11.898 17.901-17.841 26.855-.331.5-.76.896-.294 1.664 5.744 9.483 11.441 18.996 17.152 28.498.901 1.501 1.813 2.996 2.979 4.436l3.463-69.191-.254-.075zM29.529 47.38c.269.255.94.402 1.251.249 5.509-2.708 11.053-5.355 16.442-8.286 1.756-.954 3.106-2.667 4.621-4.055 5.013-4.597 10.017-9.204 15.021-13.812.307-.283.668-.556.852-.913 1.797-3.513 3.562-7.042 5.391-10.675-2.181-.817-4.248-1.62-6.34-2.35-.284-.099-.73.098-1.04.27-4.843 2.706-9.777 5.267-14.467 8.218-2.347 1.476-4.259 3.651-6.337 5.547-3.347 3.056-6.692 6.119-9.992 9.229-.876.825-1.674 1.768-2.355 2.76-2.258 3.286-4.446 6.619-6.737 10.048 1.282 1.326 2.445 2.592 3.69 3.77zM49.662 42.887c-2.739 11.577-5.465 23.088-8.279 34.978 13.199-8.504 26.093-16.812 38.901-25.065-10.193-3.3-20.354-6.589-30.622-9.913zM71.499 23.446l11.22 27.292c7.324-11.001 14.502-21.785 21.843-32.815-11.151 1.863-22.036 3.681-33.063 5.523zM50.122 40.519c10.042 3.261 19.885 6.456 30.012 9.743-3.761-9.163-7.393-18.005-11.101-27.035l-18.911 17.292zM29.944 54.131l-10.504 25.109c6.731-.199 13.257-.392 20.005-.591-3.168-8.176-6.274-16.192-9.501-24.518zM39.683 72.826l.248-.054c2.401-9.988 4.838-19.907 7.291-30.284-5.47 2.842-10.688 5.554-16.05 8.341 2.735 7.112 5.653 14.612 8.511 21.997zM100.525 16.304c-3.195-.846-6.387-1.696-9.585-2.536-4.593-1.207-9.19-2.401-13.781-3.62-.573-.152-.989-.251-1.326.44-1.622 3.324-3.296 6.624-4.944 9.935-.051.103-.041.237-.08.492 9.948-1.507 19.83-3.005 29.71-4.502l.006-.209zM81.993 8.742c8.579 2.374 17.158 4.747 26.037 7.203l-4.302-12.258c-7.29 1.617-14.493 3.214-21.696 4.811l-.039.244zM89.875 88.1l-21.361-2.916c-8.873-1.211-17.73-2.544-26.623-3.569-3.225-.371-6.536-.029-9.806.026-2.687.046-5.374.148-8.06.233-.277.008-.553.064-.828.361 22.21 2.054 44.422 4.107 66.631 6.162l.047-.297zM19.878 71.576c2.864-6.641 5.712-13.287 8.586-19.922.288-.667.267-1.118-.296-1.653-1.203-1.145-2.319-2.378-3.634-3.744l-5.241 25.871.193.092c.133-.214.294-.414.392-.644zM76.29 6.989c4.827-1.246 9.724-2.218 14.592-3.305.314-.071.622-.175.932-.264l-.047-.238-20.916 2.813c1.965.859 3.478 1.5 5.439.994zM30.975 109.422v8.547h-4.724v-22.277h6.491c3.026 0 5.266.551 6.719 1.653s2.18 2.776 2.18 5.02c0 1.311-.361 2.477-1.083 3.497-.721 1.021-1.741 1.822-3.063 2.401l6.553 9.705h-5.242l-5.317-8.547h-2.514zm0-3.84h1.524c1.492 0 2.595-.25 3.306-.747.71-.498 1.066-1.28 1.066-2.346 0-1.057-.363-1.808-1.09-2.255-.726-.447-1.851-.671-3.374-.671h-1.433v6.019zM58.553 117.969l-.624-2.179h-.244c-.498.793-1.204 1.404-2.117 1.836-.915.432-1.957.647-3.124.647-2.002 0-3.51-.535-4.526-1.607s-1.523-2.613-1.523-4.624v-11.108h4.647v9.95c0 1.229.219 2.151.656 2.766.436.615 1.131.921 2.086.921 1.301 0 2.24-.435 2.819-1.302.579-.869.869-2.308.869-4.319v-8.015h4.647v17.035h-3.566zM76.472 100.613c2.011 0 3.586.786 4.725 2.355 1.137 1.569 1.705 3.72 1.705 6.453 0 2.813-.587 4.992-1.759 6.535-1.174 1.545-2.771 2.316-4.793 2.316-2.001 0-3.57-.727-4.708-2.18h-.32l-.776 1.875h-3.551v-23.707h4.647v5.516c0 .701-.062 1.823-.184 3.368h.184c1.086-1.686 2.697-2.531 4.83-2.531zm-1.494 3.719c-1.147 0-1.985.353-2.513 1.059-.528.707-.804 1.872-.823 3.498v.502c0 1.829.271 3.139.814 3.932.544.792 1.405 1.188 2.584 1.188.954 0 1.713-.44 2.277-1.318s.846-2.156.846-3.832c0-1.676-.285-2.934-.854-3.772-.568-.838-1.345-1.257-2.331-1.257zM83.999 100.934h5.089l3.215 9.584c.274.833.463 1.818.563 2.956h.092c.111-1.046.329-2.032.654-2.956l3.154-9.584h4.982l-7.207 19.214c-.66 1.777-1.602 3.108-2.825 3.992-1.225.884-2.654 1.325-4.29 1.325-.803 0-1.59-.086-2.361-.259v-3.687c.559.131 1.168.197 1.828.197.822 0 1.541-.251 2.156-.754.615-.502 1.095-1.261 1.439-2.277l.274-.839-6.763-16.912z' })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { fill: '#fff', d: 'M18.922 104.532v21.468h5.476v-5.591l4.983 4.983h8.402l-6.664-6.664s4.795-.078 5.157-7.01c0-6.361-4.8-7.186-10.343-7.186h-7.011zm5.737 5.824h4.722v3.824h-4.722v-3.824z' }),
+              _react2.default.createElement('path', { fill: '#fff', d: 'M48.358 104.619c-2.997-.017-7.155.261-7.155 5.911v14.92h5.62v-3.65h5.447v3.563h5.649v-15.644c0-4.907-5.452-5.1-8.373-5.1h-1.188zm-1.449 5.388h5.273v5.882h-5.273v-5.882z' }),
+              _react2.default.createElement('path', { fill: '#fff', d: 'M63.55 104.632h5.815v20.537h-5.815z' }),
+              _react2.default.createElement('path', { fill: '#fff', d: 'M75.454 104.905v20.537h13.995v-5.452h-8.269v-15.175l-5.726.09z' }),
+              _react2.default.createElement('path', { fill: '#fff', d: 'M107.986 104.722v5.543h-9.36v1.999h3.999s6.453-.09 6.453 6.452c0 6.543-3 6.907-9.088 6.907h-7.36v-4.998h8.451c2.544 0 2.685-.829 2.685-1.551 0-.721-1.3-1.056-3.946-1.056s-7.553-1.301-7.553-6.389c0-5.089 2.545-6.998 7.633-6.998 5.088.001 8.086.091 8.086.091z' }),
+              _react2.default.createElement('path', { 'fill-rule': 'evenodd', 'clip-rule': 'evenodd', fill: '#A62C46', d: 'M100.556 10.818c-9.749-4.811-19.734-5.3-29.958-1.687-9.408 3.326-16.913 9.277-22.491 17.381-9.44 13.716-16.296 28.682-20.141 44.938-1.966 8.322-3.241 16.304-2.898 24.897.028.698.131 1.653.2 1.653h48.214c-.137 0-.229-.288-.348-.593-2.536-6.475-4.545-12.891-5.933-19.705-1.995-9.784-3.039-19.541-.979-29.416 2.884-13.829 10.767-23.702 24.055-28.873 7.527-2.932 14.67-2.044 20.937 3.455.058.051.175.048.328.073l2.05-3.087c-3.946-3.758-8.282-6.69-13.036-9.036zM25.067 75.154l-9.45-.714-1.07 9.146 8.891 1.068 1.629-9.5zM33.069 47.135c-2.889-1.129-5.58-2.183-8.363-3.273-.928 2.638-1.794 5.093-2.704 7.675 2.919.936 5.668 1.817 8.524 2.731l2.543-7.133zM72.542 89.993c2.855.212 5.716.36 8.867.543-1.145-2.379-2.16-4.53-3.226-6.657-.116-.231-.51-.454-.777-.458-2.422-.035-4.847-.021-7.421-.021.579 2.1 1.084 4.035 1.674 5.945.088.288.563.624.883.648zM47.243 23.889l-6.353-4.207c-1.703 1.903-3.345 3.738-5.08 5.675l6.532 4.39 4.901-5.858zM67.477 66.515c-.009.257.222.665.446.767 2.289 1.028 4.601 2.008 7.119 3.093-.105-1.99-.176-3.654-.294-5.314-.022-.298-.163-.729-.384-.852-2.101-1.164-4.231-2.274-6.562-3.51-.128 2.129-.257 3.97-.325 5.816zM65.595 8.871l-4.35-4.936-5.989 3.113 4.356 5.307 5.983-3.484zM68.323 48.148c-.129.3.043.932.298 1.163 1.737 1.567 3.534 3.066 5.532 4.777.458-1.917.889-3.625 1.255-5.345.065-.307-.025-.813-.238-.983-1.555-1.254-3.159-2.446-4.822-3.716-.731 1.451-1.439 2.751-2.025 4.104zM78.267 6.276c2.22.062 4.443.034 6.788.034-.234-1.632-.345-2.87-.624-4.067-.083-.355-.621-.831-.982-.86-2.225-.181-4.46-.25-6.91-.367.327 1.647.576 3.099.928 4.526.076.304.518.728.8.734zM80.971 34.77c.113-.212.142-.598.023-.784-1.092-1.706-2.224-3.387-3.398-5.154l-3.803 3.491 5.259 5.827c.705-1.23 1.337-2.292 1.919-3.38zM85.071 23.168c.808 1.499 1.54 2.858 2.271 4.219 3.553-1.946 3.894-2.653 2.635-5.458l-4.906 1.239zM102.073 10.171c1.479.912 3.04 1.688 4.627 2.544l1.062-1.654-5.921-4.334c-.082.881-.206 1.499-.174 2.106.025.465.104 1.151.406 1.338zM106 21.868c-3-.351-4-.698-6-1.058v2.714c2 .173 3 .339 6 .513v-2.169z' })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { 'fill-rule': 'evenodd', 'clip-rule': 'evenodd', fill: '#336791', d: 'M63.409 100.219c1.792 1.482 3.893 2.114 6.161 2.231.938.049 1.903.003 2.826-.165 1.464-.266 2.924-.6 4.348-1.029 2.9-.875 5.406-2.387 7.277-4.829 1.066-1.392 1.941-2.897 2.503-4.561.464-1.373.9-2.76 1.247-4.165.274-1.107.41-2.25.576-3.381.111-.748.178-1.504.247-2.259.112-1.225.229-2.448.31-3.676.057-.854.055-1.712.088-2.567.011-.261.053-.52.078-.779.021-.241.143-.324.389-.32.864.013 1.73.035 2.593-.004.967-.043 1.941-.085 2.893-.244 1.354-.227 2.701-.514 4.028-.86 1.568-.411 3.007-1.146 4.393-1.982 1.612-.975 3.084-2.118 4.275-3.591 1.039-1.282 1.531-2.768 1.28-4.389-.364-2.355-2.343-3.898-4.644-4.003-.834-.038-1.68.05-2.51.155-1.005.128-1.995.354-2.997.503-.692.104-1.393.15-2.083.222l-.019-.09c1.29-2.437 2.634-4.846 3.854-7.316.937-1.896 1.737-3.859 2.564-5.809 1.37-3.228 2.463-6.555 3.369-9.938.867-3.238 1.609-6.511 1.844-9.871.094-1.341.159-2.688.15-4.031-.006-1.072-.122-2.145-.229-3.213-.122-1.224-.492-2.384-1.004-3.5-.674-1.472-1.721-2.679-2.822-3.825-.881-.918-1.851-1.754-2.812-2.59-1.371-1.192-2.913-2.145-4.513-2.99-1.819-.96-3.73-1.712-5.724-2.22-1.206-.307-2.438-.578-3.658-.821-.436-.088-.876-.312-1.315-.312h-8.268c-.299 0-.595.196-.896.229-1.979.221-3.935.615-5.835 1.205-.71.219-1.358.091-2.033.028-.518-.048-1.027-.181-1.545-.207-1.971-.098-3.944-.24-5.916-.219-1.888.02-3.757.332-5.584.85-1.529.436-3.026.965-4.398 1.77-.586.344-1.052.279-1.659.105-2.041-.589-4.095-1.141-6.166-1.604-1.291-.289-2.62-.435-3.939-.571-1.265-.132-2.537-.21-3.809-.237-1.242-.027-2.492-.026-3.729.084-1.969.175-3.9.575-5.778 1.221-2.085.718-3.997 1.757-5.72 3.121-1.75 1.385-3.154 3.074-4.281 5.005-1.189 2.037-2.006 4.218-2.512 6.507-.275 1.241-.174 2.517-.363 3.777-.058.39.059.782.059 1.174v5.485c0 .364-.107.729-.061 1.095.113.879.074 1.765.223 2.638.234 1.382.445 2.759.729 4.131.397 1.917.776 3.832 1.216 5.74.32 1.389.667 2.77 1.048 4.143.58 2.098 1.146 4.199 1.803 6.272.611 1.927 1.307 3.826 2.002 5.726.962 2.628 2.11 5.171 3.49 7.607 1.195 2.111 2.558 4.088 4.388 5.713 1.207 1.072 2.548 1.895 4.109 2.307 1.228.322 2.478.361 3.733.104 1.457-.298 2.748-.926 3.895-1.865.132-.107.275-.19.432.008.594.752 1.388 1.254 2.219 1.687 2.242 1.17 4.685 1.521 7.166 1.663.602.034 1.208-.052 1.813-.068 1.181-.033 2.327-.263 3.454-.589.592-.171 1.169-.389 1.771-.591.031.641.071 1.257.091 1.874l.083 3.363c.016.512.036 1.024.083 1.534.122 1.314.241 2.628.398 3.938.108.903.222 1.812.434 2.694.428 1.778 1.006 3.509 1.742 5.188.721 1.646 1.76 3.037 3.148 4.184zm-3.591-16.768c-.071-1.579-.124-3.159-.159-4.739-.042-1.942-.056-3.885-.083-5.827l-.005-.074c-.987.593-1.96 1.241-2.989 1.776-1.207.627-2.517.99-3.874 1.093-1.063.08-2.142.153-3.2.069-1.736-.141-3.472-.412-5.026-1.268-.63-.347-1.288-.77-1.723-1.323-1.041-1.329-.542-3.008 1.028-3.816 1.085-.56 2.269-.793 3.445-1.065 1.021-.236 2.039-.505 3.036-.83.986-.323 1.608-1.123 2.223-1.908l.974-1.252-1.171-.122c-1.162-.108-2.271-.429-3.331-.899-.906-.401-.92-.445-1.586.277-1.11 1.205-2.19 2.44-3.279 3.666-.801.902-1.596 1.809-2.395 2.714-.788.895-1.528 1.84-2.379 2.672-1.262 1.236-2.784 1.979-4.6 1.895-1.165-.054-2.231-.462-3.191-1.129-1.979-1.378-3.312-3.308-4.527-5.333-1.555-2.596-2.75-5.361-3.771-8.201-.707-1.964-1.418-3.929-2.034-5.921-.671-2.165-1.26-4.355-1.839-6.547-.438-1.653-.826-3.32-1.196-4.99-.421-1.899-.825-3.803-1.182-5.715-.241-1.291-.38-2.601-.575-3.9-.263-1.753-.311-3.52-.215-5.279.085-1.585.312-3.165.538-4.739.313-2.178 1.031-4.233 2.063-6.174.633-1.189 1.416-2.27 2.323-3.274 1.49-1.649 3.293-2.84 5.299-3.735 1.401-.625 2.882-1 4.391-1.295 2.24-.436 4.5-.418 6.76-.372.988.021 1.973.2 2.96.299 2.126.211 4.209.659 6.266 1.21 1.5.402 2.969.924 4.455 1.376.148.045.367.041.49-.038 2.015-1.316 4.216-2.184 6.559-2.681.889-.188 1.807-.271 2.716-.329 1.104-.069 2.219-.135 3.321-.07 1.325.076 2.646.271 3.963.451.64.088 1.264.309 1.904.369.308.029.633-.194.957-.27 1.654-.383 3.301-.808 4.97-1.109 1.242-.224 2.512-.33 3.774-.402 1.41-.081 2.828-.14 4.236-.072 1.78.086 3.547.339 5.291.745 2.162.503 4.234 1.233 6.205 2.247 1.473.759 2.872 1.637 4.133 2.717.826.709 1.672 1.408 2.417 2.198.92.974 1.858 1.947 2.436 3.194.435.941.745 1.915.831 2.944.106 1.281.235 2.566.224 3.849-.011 1.226-.179 2.451-.297 3.675-.271 2.788-.876 5.516-1.613 8.208-.607 2.223-1.319 4.422-2.089 6.596-.709 2.003-1.528 3.969-2.355 5.928-.611 1.448-1.27 2.881-1.984 4.281-1.354 2.652-2.762 5.277-4.391 7.777-.281.431-.548.873-.822 1.314.711.479 1.516.648 2.326.736.771.083 1.557.134 2.327.076 1.233-.092 2.462-.268 3.688-.439 1.214-.17 2.403-.515 3.651-.424 1.244.091 2.136 1.037 2.051 2.203-.054.738-.393 1.371-.883 1.912-2.315 2.554-5.221 4.102-8.545 4.865-1.263.29-2.565.439-3.858.56-1.101.102-2.216.119-3.321.078-.812-.03-1.617-.216-2.447-.336-.084.759-.163 1.55-.259 2.338l-.387 3.023c-.117.958-.208 1.92-.329 2.878-.118.93-.265 1.855-.389 2.784-.115.865-.2 1.735-.33 2.599-.197 1.324-.386 2.651-.645 3.965-.31 1.57-.784 3.09-1.561 4.507-.946 1.729-2.287 3.046-3.995 4.021-1.76 1.005-3.685 1.528-5.634 1.966-1.382.311-2.803.361-4.202.234-2.425-.219-4.495-1.256-6.06-3.137-1.493-1.795-2.504-3.851-2.865-6.18-.174-1.107-.298-2.223-.396-3.339-.112-1.243-.186-2.487-.244-3.732zM62.544 67.497c.015.83-.071 1.66-.067 2.49.017 3.863.045 7.727.078 11.591.006.631.037 1.264.082 1.894.095 1.32.189 2.641.317 3.957.092.935.217 1.867.364 2.795.21 1.313.808 2.483 1.486 3.602.584.962 1.345 1.778 2.346 2.342 1.702.957 3.533 1.037 5.379.685 1.247-.237 2.473-.62 3.683-1.015 1.194-.389 2.273-1.024 3.178-1.901.849-.822 1.451-1.825 1.857-2.932.787-2.146 1.034-4.407 1.359-6.649.122-.84.228-1.682.339-2.523.127-.957.255-1.913.377-2.87.092-.714.174-1.427.261-2.14.125-1.024.256-2.047.375-3.071.091-.792.167-1.587.249-2.381.104-1.015.215-2.027.306-3.044.068-.77.04-1.555.177-2.312.251-1.387.907-2.567 2.137-3.331.514-.318 1.096-.528 1.666-.798l-.098-.149c-.527-.684-1.067-1.357-1.584-2.049-.812-1.086-1.396-2.297-1.983-3.514-.556-1.154-1.236-2.246-1.821-3.387-1.021-1.99-2.061-3.975-3.002-6.002-1.183-2.55-2.115-5.188-2.408-8.012-.125-1.194-.157-2.388.086-3.571.387-1.89 1.373-3.368 3.033-4.382 1.54-.94 3.255-1.244 5.012-1.339 1.09-.059 2.187-.011 3.318-.011l-.037-.191c-.704-1.472-1.361-2.969-2.132-4.405-1.086-2.028-2.478-3.856-4.026-5.553-1.146-1.255-2.389-2.419-3.75-3.45-1.338-1.013-2.748-1.918-4.253-2.657-1.794-.883-3.664-1.565-5.624-2-1.885-.418-3.78-.674-5.714-.695-1.648-.018-3.286.058-4.892.429-2.424.561-4.641 1.559-6.568 3.175-1.077.903-2.018 1.916-2.839 3.044-.967 1.325-1.745 2.759-2.411 4.26-.914 2.061-1.541 4.204-1.971 6.408-.214 1.1-.382 2.207-.553 3.314-.06.389-.064.784-.1 1.229l.732-.381.714-.32c2.417-1.105 4.92-1.816 7.61-1.735 1.144.034 2.236.261 3.254.762 1.95.962 3.09 2.597 3.586 4.665.342 1.428.577 2.884.805 4.337.178 1.134.361 2.28.381 3.424.029 1.672-.055 3.348-.146 5.019-.077 1.424-.374 2.825-.872 4.154-.904 2.416-1.912 4.793-2.853 7.195-.311.794-.55 1.615-.843 2.488l1.188.001c.144.003.291.007.43.04 1.081.255 2.02.745 2.789 1.577 1.028 1.104 1.566 2.396 1.593 3.893zM41.897 56.042c-.614-1.454-.983-2.971-1.094-4.538-.104-1.474.071-2.94.223-4.408.146-1.421.27-2.849.312-4.275.071-2.347-.087-4.688-.199-7.033-.067-1.396.095-2.809.219-4.208.112-1.26.252-2.523.491-3.765.399-2.084.93-4.138 1.685-6.129.715-1.888 1.539-3.725 2.699-5.38.797-1.136 1.699-2.195 2.566-3.305l-.258-.092c-2.823-.896-5.693-1.598-8.646-1.903-1.395-.145-2.796-.229-4.195-.313-.43-.025-.866.033-1.297.074-1.067.103-2.148.143-3.198.343-1.787.34-3.502.912-5.089 1.843-1.426.836-2.623 1.915-3.626 3.211-1.107 1.431-1.854 3.049-2.389 4.773-.632 2.035-.934 4.13-1.015 6.243-.071 1.853-.106 3.716.214 5.562.237 1.373.396 2.762.658 4.131.358 1.865.742 3.727 1.186 5.573.633 2.644 1.267 5.29 2.018 7.902.718 2.501 1.527 4.98 2.407 7.43.718 1.999 1.549 3.961 2.424 5.896.57 1.261 1.26 2.475 1.984 3.655.769 1.254 1.645 2.444 2.831 3.354 1.499 1.148 2.658 1.327 4.182.066.652-.539 1.203-1.207 1.771-1.842.901-1.008 1.771-2.046 2.669-3.059 1.143-1.289 2.3-2.565 3.449-3.85.243-.271.478-.551.714-.825l-.393-.343c-1.425-1.372-2.531-2.962-3.303-4.788zM85.238 17.639c.934 1.095 1.838 2.222 2.672 3.394 1.614 2.268 2.904 4.716 3.855 7.336.42 1.155.756 2.321.606 3.584-.104.885-.097 1.782-.174 2.672-.065.74-.183 1.476-.278 2.214-.144 1.112-.352 2.222-.414 3.339-.06 1.064.003 2.138.07 3.203.067 1.083.213 2.161.312 3.241.112 1.227.264 2.451.298 3.68.028 1.008-.062 2.021-.149 3.029-.105 1.213-.412 2.387-.87 3.512-.323.794-.708 1.562-1.071 2.356l.146.154.222.172.225-.4c1.888-2.977 3.568-6.068 5.021-9.277.938-2.066 1.812-4.162 2.654-6.27 1.311-3.281 2.35-6.653 3.151-10.094.36-1.544.636-3.112.88-4.68.191-1.226.349-2.466.385-3.703.037-1.312-.035-2.634-.156-3.942-.091-.988-.335-1.982-.953-2.787-.996-1.293-2.07-2.529-3.391-3.508-1.113-.823-2.223-1.67-3.416-2.362-1.893-1.099-3.942-1.829-6.083-2.327-2.091-.487-4.207-.697-6.337-.742-1.256-.027-2.518.108-3.771.227-1.136.106-2.265.288-3.408.438 1.227.69 2.438 1.304 3.578 2.027 2.4 1.52 4.552 3.349 6.396 5.514zM54.058 60.202c.775-2.48 1.832-4.85 2.855-7.232.831-1.933 1.284-3.968 1.435-6.06.075-1.031.055-2.075.004-3.109-.057-1.148-.148-2.301-.316-3.438-.215-1.454-.459-2.909-.803-4.336-.373-1.544-1.313-2.62-2.925-3.017-.981-.241-1.957-.231-2.95-.074-2.423.381-4.641 1.274-6.707 2.582-.416.263-.646.476-.573 1.071.152 1.264.185 2.548.179 3.823-.008 1.805-.085 3.61-.153 5.414-.022.587-.107 1.173-.171 1.758-.096.896-.283 1.791-.277 2.686.006.922.1 1.865.324 2.758.711 2.832 2.215 5.148 4.682 6.783 1.517 1.006 3.195 1.512 5.038 1.609.122-.423.235-.822.358-1.218zm-2.896-24.289c-.325-.681-.139-1.246.613-1.508.184-.063.372-.133.562-.151.263-.026.528-.007.793-.007.955.006 1.873.139 2.66.745.506.39.642.905.314 1.437-.465.753-1.172 1.131-2.042 1.203-1.369.113-2.33-.525-2.9-1.719zM89.137 35.664l.311-2.725c.045-.364-.146-.464-.452-.473-.963-.026-1.925-.061-2.888-.077-1.084-.02-2.141.154-3.145.566-1.114.459-1.962 1.193-2.309 2.406-.259.904-.328 1.807-.236 2.752.139 1.441.459 2.839.963 4.18.674 1.793 1.378 3.585 2.221 5.303 1.141 2.325 2.431 4.577 3.643 6.867.323.611.597 1.25.934 1.963.707-1.496 1.051-2.994 1.09-4.538.033-1.301-.07-2.605-.146-3.906-.047-.796-.16-1.588-.237-2.382-.107-1.106-.271-2.213-.297-3.322-.025-1.128.055-2.262.151-3.389.09-1.078.268-2.149.397-3.225zm-2.169-.874c-.358.987-1.122 1.545-2.114 1.708-.924.153-1.734-.188-2.336-.926-.429-.525-.265-1.146.378-1.502.738-.408 1.549-.511 2.506-.573.261.047.651.088 1.023.193.539.152.739.56.543 1.1zM58.37 65.193c-.528-.432-1.228-.457-1.73.017-.624.59-1.173 1.264-1.722 1.928-.633.768-1.229 1.566-2.045 2.161-1.189.865-2.578 1.223-3.972 1.562-1.108.27-2.222.521-3.333.779l-.014.144c.33.152.649.343.994.452 1.695.536 3.42.804 5.212.652 1.292-.111 2.524-.393 3.691-.946 1.607-.761 2.844-1.968 3.895-3.37.176-.234.256-.58.276-.882.071-1.066-.47-1.859-1.252-2.497zM89.315 64.731c-.831.279-1.507.704-1.708 1.603-.137.608-.187 1.237-.24 1.86-.01.11.127.312.231.34.64.169 1.284.368 1.938.427.805.073 1.623.05 2.433.01.874-.044 1.754-.101 2.616-.245 2.029-.342 3.994-.896 5.738-2.048.63-.415 1.252-.839 1.878-1.261l-.052-.089c-.667.099-1.332.22-2.002.291-1.364.146-2.729.3-4.098.379-.661.038-1.331-.089-1.997-.143-1.118-.091-2.21-.339-3.155-.937-.545-.344-1.001-.382-1.582-.187z' }),
+              _react2.default.createElement('path', { fill: '#336791', d: 'M2.835 103.184c1.093-.182 2.522-.338 4.343-.338 2.235 0 3.874.52 4.914 1.456.962.832 1.534 2.106 1.534 3.667 0 1.586-.469 2.834-1.353 3.744-1.196 1.274-3.146 1.924-5.356 1.924-.676 0-1.3-.026-1.819-.156v7.021h-2.263v-17.318zm2.263 8.45c.494.13 1.118.182 1.872.182 2.729 0 4.394-1.326 4.394-3.744 0-2.314-1.638-3.432-4.134-3.432-.988 0-1.742.078-2.132.182v6.812zM27.328 114.104c0 4.654-3.225 6.683-6.267 6.683-3.406 0-6.032-2.496-6.032-6.475 0-4.212 2.756-6.682 6.24-6.682 3.615-.001 6.059 2.626 6.059 6.474zm-9.984.13c0 2.756 1.586 4.836 3.822 4.836 2.184 0 3.821-2.054 3.821-4.888 0-2.132-1.065-4.836-3.77-4.836s-3.873 2.496-3.873 4.888zM29.901 118.16c.676.442 1.872.91 3.016.91 1.664 0 2.444-.832 2.444-1.872 0-1.092-.649-1.69-2.34-2.314-2.262-.806-3.328-2.054-3.328-3.562 0-2.028 1.638-3.692 4.342-3.692 1.274 0 2.393.364 3.095.78l-.572 1.664c-.494-.312-1.404-.728-2.574-.728-1.352 0-2.106.78-2.106 1.716 0 1.04.755 1.508 2.393 2.132 2.184.832 3.302 1.924 3.302 3.796 0 2.21-1.716 3.77-4.706 3.77-1.378 0-2.652-.338-3.536-.858l.57-1.742zM43.266 104.301v3.614h3.275v1.742h-3.275v6.786c0 1.56.441 2.444 1.716 2.444.598 0 1.04-.078 1.326-.156l.104 1.716c-.441.182-1.144.312-2.027.312-1.066 0-1.925-.338-2.471-.962-.649-.676-.884-1.794-.884-3.276v-6.864h-1.95v-1.742h1.95v-3.016l2.236-.598zM59.802 107.916c-.053.91-.104 1.924-.104 3.458v7.306c0 2.886-.572 4.654-1.794 5.747-1.222 1.144-2.99 1.508-4.576 1.508-1.508 0-3.172-.364-4.187-1.04l.572-1.742c.832.52 2.132.988 3.692.988 2.34 0 4.056-1.222 4.056-4.394v-1.404h-.052c-.702 1.17-2.054 2.106-4.004 2.106-3.12 0-5.356-2.652-5.356-6.137 0-4.264 2.782-6.682 5.668-6.682 2.185 0 3.381 1.144 3.927 2.184h.052l.104-1.898h2.002zm-2.366 4.966c0-.39-.026-.728-.13-1.04-.416-1.326-1.534-2.418-3.198-2.418-2.185 0-3.744 1.846-3.744 4.758 0 2.47 1.248 4.524 3.718 4.524 1.404 0 2.678-.884 3.172-2.34.13-.39.183-.832.183-1.222v-2.262zM63.337 111.842c0-1.482-.026-2.756-.104-3.926h2.003l.077 2.47h.104c.572-1.69 1.95-2.756 3.484-2.756.26 0 .441.026.649.078v2.158c-.233-.052-.468-.078-.779-.078-1.612 0-2.757 1.222-3.068 2.938-.052.312-.104.676-.104 1.066v6.708h-2.262v-8.658zM72.854 114.624c.052 3.094 2.027 4.368 4.315 4.368 1.639 0 2.626-.286 3.484-.65l.39 1.638c-.806.364-2.184.78-4.186.78-3.874 0-6.188-2.548-6.188-6.344 0-3.796 2.236-6.787 5.902-6.787 4.108 0 5.2 3.614 5.2 5.928 0 .468-.052.832-.078 1.066h-8.839zm6.708-1.638c.025-1.456-.599-3.718-3.172-3.718-2.314 0-3.328 2.132-3.511 3.718h6.683zM84.371 117.744c1.014.624 2.496 1.144 4.056 1.144 2.314 0 3.666-1.222 3.666-2.99 0-1.638-.936-2.574-3.302-3.484-2.86-1.014-4.628-2.496-4.628-4.966 0-2.73 2.262-4.758 5.668-4.758 1.794 0 3.094.416 3.874.858l-.624 1.846c-.572-.312-1.742-.832-3.328-.832-2.392 0-3.302 1.43-3.302 2.626 0 1.638 1.065 2.444 3.484 3.38 2.964 1.145 4.472 2.574 4.472 5.148 0 2.704-2.002 5.044-6.136 5.044-1.69 0-3.536-.494-4.473-1.118l.573-1.898zM111.957 123.074c-2.366-.624-4.68-1.326-6.708-2.028-.364-.13-.728-.26-1.066-.26-4.16-.156-7.722-3.224-7.722-8.866 0-5.616 3.432-9.23 8.164-9.23 4.758 0 7.853 3.692 7.853 8.866 0 4.498-2.08 7.384-4.992 8.398v.104c1.742.442 3.64.858 5.122 1.118l-.651 1.898zm-1.872-11.414c0-3.51-1.819-7.125-5.538-7.125-3.822 0-5.694 3.536-5.668 7.333-.026 3.718 2.028 7.072 5.564 7.072 3.615 0 5.642-3.276 5.642-7.28zM115.414 102.976h2.263v15.626h7.488v1.898h-9.751v-17.524z' })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { fill: '#F34F29', d: 'M76.004 50.588c-7.655 0-11.459 3.996-11.459 9.75 0 3.704 1.852 6.328 4.304 7.529-1.201 1.101-2.201 2.064-3.102 3.014-.902.952-1.452 1.957-1.452 3.059 0 1.352.55 2.605 2.202 3.303-1.751 1.654-2.753 2.854-2.753 5.107 0 3.953 3.453 6.256 12.511 6.256 8.708 0 13.761-3.251 13.761-9.007 0-6.653-5.103-6.904-13.761-7.456l-4.904-.3 1.652-2.652c.899.25 2.352.45 3.955.45 6.304 0 10.658-3.252 10.658-8.808 0-2.302-1.137-3.903-2.037-5.055l4.421-.35v-4.428h-9.391c-1.15 0-2.453-.412-4.605-.412zm2.252 28.511c2.404.15 4.306.25 4.306 1.854 0 2.699-3.955 2.902-6.856 2.902-3.504 0-6.056-.602-6.056-2.603 0-1.002.65-1.852 1.302-2.652l7.304.499zm-1.949-14.712c-3.304 0-4.655-1.703-4.655-4.154 0-3.253 2.051-4.605 4.804-4.605 2.852 0 4.554 1.552 4.554 4.504 0 2.604-1.902 4.255-4.703 4.255zM99.173 46.685c2.902 0 4.554-1.652 4.554-4.506 0-2.85-1.652-4.403-4.554-4.403-2.853 0-4.505 1.553-4.505 4.403 0 2.853 1.652 4.506 4.505 4.506zM103 71.455v-20.455h-9.733l-.55 3.896 2.667.874c.502.149.616.423.616.973v14.712c0 .752-.422.902-1.123 1.003l-2.877.35v4.192h15v-4.192l-2.876-.35c-.753-.101-1.124-.2-1.124-1.003zM125.418 70.415c-1.202.45-2.632.799-4.035.799-2.701 0-3.383-1.15-3.383-4.103v-12.111h7v-5h-6.638c-.401 0-.362-.003-.362-.353v-6.647h-4.793c-.55 5-3.207 7.196-7.207 7.698v4.302h4.003c.401 0-.003.353-.003.652v13.111c0 5.657 2.454 8.058 8.408 8.058 2.854 0 6.107-.951 8.26-2.001l-1.25-4.405zM29.738 38.806c-1.317-1.318-3.455-1.318-4.773 0l-4.751 4.751 6.027 6.027c1.401-.473 3.007-.156 4.124.961 1.122 1.123 1.437 2.743.952 4.149l5.809 5.809c1.406-.484 3.027-.171 4.149.953 1.57 1.568 1.57 4.11 0 5.679-1.569 1.57-4.11 1.57-5.68 0-1.18-1.181-1.624-2.914-1.025-4.368l-5.57-5.417v14.257c0 .189.895.441 1.214.759 1.568 1.568 1.644 4.11.075 5.681-1.569 1.568-4.074 1.568-5.642 0-1.568-1.571-1.549-4.112.02-5.681.388-.387.333-.68 1.333-.876v-14.389c-1-.196-.927-.487-1.314-.876-1.188-1.188-1.474-2.931-.865-4.39l-5.942-5.943-15.689 15.689c-1.319 1.319-1.319 3.457 0 4.774l22.882 22.881c1.317 1.317 3.454 1.317 4.773 0l22.775-22.776c1.317-1.318 1.317-3.456 0-4.774l-22.882-22.88z' })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { fill: '#F7A80D', d: 'M44.634 57.361c-2.599 0-5.499 1.001-6.107 4.296-.064.351.167.517.391.567l2.663.32c.246-.014.414-.28.461-.533.228-1.134 1.16-1.669 2.201-1.669.563 0 1.193.193 1.527.71.381.576.354 1.359.354 2.024v.391c-1.582.182-3.666.292-5.147.958-1.709.76-2.912 2.307-2.912 4.58 0 2.913 1.785 4.366 4.083 4.366 1.94 0 3.013-.456 4.509-2.022.497.738.656 1.073 1.562 1.846.202.108.458.098.64-.071v.035c.545-.497 1.535-1.401 2.094-1.881.222-.187.174-.493 0-.746-.5-.707-1.029-1.276-1.029-2.592v-4.366c0-1.85.156-3.556-1.172-4.828-1.046-1.031-2.791-1.385-4.118-1.385zm35.786 0c-2.6 0-5.498 1.001-6.106 4.296-.064.351.166.517.39.567l2.664.32c.246-.014.415-.28.461-.533.229-1.134 1.161-1.669 2.201-1.669.564 0 1.193.193 1.526.71.381.576.319 1.359.319 2.024v.391c-1.582.182-3.63.292-5.112.958-1.711.76-2.91 2.307-2.91 4.58 0 2.913 1.785 4.366 4.082 4.366 1.938 0 3.011-.456 4.509-2.022.495.738.656 1.073 1.563 1.846.203.108.458.098.639-.071v.035c.546-.497 1.537-1.401 2.095-1.881.222-.187.171-.493 0-.746-.5-.707-1.03-1.276-1.03-2.592v-4.366c0-1.85.12-3.556-1.206-4.828-1.05-1.031-2.759-1.385-4.085-1.385zm-20.13.142c-1.68 0-2.924.848-3.585 2.663h-.036v-1.882c-.018-.262-.23-.483-.496-.497h-2.557c-.29 0-.533.245-.533.533v14.378c.022.255.238.479.498.497h2.733c.292 0 .531-.243.532-.533v-7.633c0-1.664-.08-3.94 1.882-3.94 1.937 0 1.668 2.339 1.668 3.94v7.633c0 .271.222.515.498.533h2.733c.29 0 .532-.243.532-.533v-7.633c0-.816-.033-2.006.248-2.733s.971-1.207 1.634-1.207c.789 0 1.394.275 1.598 1.242.126.575.071 2.094.071 2.698v7.633c0 .271.222.515.496.533h2.734c.29 0 .532-.243.532-.533v-9.088c0-1.545.154-3.298-.71-4.509-.765-1.088-2.015-1.563-3.16-1.563-1.605 0-3.101.848-3.763 2.663-.764-1.814-1.842-2.662-3.549-2.662zm46.472 0c-3.949 0-6.142 3.473-6.142 7.953 0 4.448 2.167 8.022 6.142 8.022 3.823 0 6.249-3.492 6.249-7.881 0-4.537-2.198-8.094-6.249-8.094zm15.585 0c-1.887 0-2.966.943-3.728 2.911h-.035v-2.201c-.049-.222-.258-.377-.497-.39h-2.521c-.275 0-.508.199-.533.461v14.378c0 .271.225.515.497.533h2.699c.289 0 .527-.242.531-.533v-7.739c0-.97.083-1.855.463-2.733.306-.697.899-1.137 1.562-1.137 1.883 0 1.703 2.295 1.703 3.87v7.811c.028.244.249.445.498.462h2.733c.269 0 .501-.204.532-.462v-9.053c0-1.392.003-3.324-.71-4.474-.764-1.241-1.975-1.704-3.194-1.704zm-32.803.249c-.278 0-.497.22-.498.532v2.059c.001.31.213.531.498.533h4.686l-5.361 7.916c-.326.511-.354 1.089-.354 1.421v2.095c0 .302.328.63.639.461 3.056-1.668 6.717-1.52 9.479-.035.336.183.675-.16.675-.462v-2.202c-.026-.294-.142-.576-.497-.781-1.568-.901-3.388-1.178-5.111-1.136l4.65-6.815c.43-.613.67-.981.674-1.279v-1.774c0-.306-.209-.532-.496-.532h-8.984zm17.218 2.698c.865 0 1.504.386 1.811 1.384.354 1.152.391 2.588.391 3.799 0 1.846-.086 4.899-2.201 4.899-2.139 0-2.13-3.78-2.13-5.538-.001-1.753.117-4.544 2.129-4.544zm-60.673 5.254v.604c0 1.092.04 2.01-.497 2.981-.434.79-1.116 1.279-1.881 1.279-1.045 0-1.668-.849-1.668-2.06-.001-2.387 2.074-2.804 4.046-2.804zm35.786 0v.604c0 1.092.04 2.01-.496 2.981-.435.79-1.112 1.279-1.882 1.279-1.047 0-1.669-.849-1.669-2.06 0-2.387 2.073-2.804 4.047-2.804zM99.59 73.656v2.06h1.386v-2.06h-1.386zm-40.152.356v14.662h1.278v-1.314c.272.521.582.91.958 1.171.376.262.806.391 1.277.391.939 0 1.75-.479 2.45-1.455.701-.977 1.065-2.392 1.065-4.189 0-1.178-.151-2.154-.462-2.981-.311-.826-.725-1.441-1.242-1.847-.519-.406-1.107-.639-1.739-.639-.452 0-.874.118-1.244.354-.368.236-.666.622-.958 1.101v-5.254h-1.383zm13.135 3.443c-.962 0-1.728.285-2.271.852s-.815 1.296-.815 2.202c0 .525.115.972.318 1.384.202.413.49.748.852.994.364.246 1.09.57 2.166.923.745.24 1.19.444 1.385.604.281.233.427.538.427.959 0 .486-.17.892-.498 1.207-.328.317-.786.461-1.385.461-.6 0-1.094-.168-1.455-.532-.362-.364-.557-.918-.64-1.668l-1.384.283c.313 2.278 1.449 3.41 3.408 3.408 1.045 0 1.844-.295 2.449-.923.604-.628.924-1.471.924-2.485 0-.548-.098-1.022-.284-1.419-.188-.397-.445-.693-.782-.924-.336-.229-1.089-.536-2.236-.923-.834-.292-1.321-.506-1.49-.64-.284-.224-.427-.53-.427-.922 0-.4.133-.739.427-.995.294-.255.747-.39 1.349-.39 1.058 0 1.65.581 1.774 1.739l1.35-.213c-.094-.732-.253-1.312-.496-1.705-.245-.392-.605-.724-1.065-.958-.465-.232-.992-.319-1.601-.319zm8.486 0c-1.109 0-2.046.457-2.77 1.42-.723.963-1.063 2.358-1.063 4.189 0 1.764.348 3.146 1.063 4.083.718.934 1.646 1.384 2.806 1.384.921 0 1.685-.276 2.307-.852.624-.575 1.077-1.423 1.313-2.557l-1.42-.248c-.407 1.451-1.16 2.163-2.2 2.165-.664 0-1.206-.281-1.669-.887-.464-.607-.726-1.507-.78-2.698h6.105v-.497c0-1.792-.357-3.137-1.065-4.083-.709-.945-1.569-1.419-2.627-1.419zm8.414 0c-.331 0-.621.112-.888.355-.267.242-.567.744-.888 1.49v-1.633h-1.243v10.615h1.385v-5.538c0-.772.074-1.516.249-2.201.1-.394.289-.703.532-.923.244-.221.523-.32.816-.32.326 0 .65.131.994.391l.462-1.668c-.482-.386-.955-.568-1.419-.568zm16.969 0c-1.096 0-1.999.462-2.699 1.385-.696.923-1.063 2.309-1.063 4.153 0 1.831.372 3.218 1.063 4.154.693.934 1.559 1.384 2.628 1.384.884 0 1.642-.328 2.272-.994.63-.665 1.014-1.646 1.172-2.911l-1.35-.213c-.101.905-.336 1.557-.71 1.988-.373.43-.823.639-1.349.639-.67 0-1.241-.313-1.67-.958-.427-.646-.638-1.68-.638-3.124 0-1.4.227-2.41.674-3.053.448-.644 1.021-.994 1.704-.994.457 0 .847.177 1.172.531.327.356.543.918.674 1.634l1.351-.283c-.162-1.119-.521-1.962-1.102-2.521-.58-.56-1.284-.817-2.129-.817zm7.917 0c-1.11 0-2.046.457-2.77 1.42-.723.963-1.065 2.358-1.065 4.189 0 1.764.349 3.146 1.065 4.083.719.934 1.646 1.384 2.805 1.384.918 0 1.685-.276 2.308-.852.622-.575 1.075-1.423 1.314-2.557l-1.42-.248c-.41 1.451-1.128 2.163-2.166 2.165-.664 0-1.241-.281-1.704-.887-.463-.607-.725-1.507-.781-2.698h6.106v-.497c0-1.792-.357-3.137-1.065-4.083-.706-.945-1.568-1.419-2.627-1.419zm8.202 0c-.966 0-1.729.285-2.272.852-.545.566-.817 1.296-.817 2.202 0 .525.082.972.284 1.384.2.413.489.748.853.994.361.246 1.09.57 2.166.923.743.24 1.226.444 1.42.604.281.233.426.538.426.959 0 .486-.168.892-.497 1.207-.326.317-.785.461-1.384.461-.602 0-1.094-.168-1.456-.532-.361-.364-.595-.918-.675-1.668l-1.384.283c.313 2.278 1.446 3.41 3.407 3.408 1.047 0 1.881-.295 2.485-.923s.922-1.471.922-2.485c0-.548-.096-1.022-.282-1.419-.188-.397-.479-.693-.817-.924-.336-.229-1.054-.536-2.2-.923-.835-.292-1.357-.506-1.527-.64-.283-.224-.426-.53-.426-.922 0-.4.167-.739.462-.995.294-.255.75-.39 1.35-.39 1.058 0 1.649.581 1.774 1.739l1.349-.213c-.094-.732-.252-1.312-.497-1.705-.244-.392-.605-.724-1.064-.958-.463-.232-.994-.319-1.6-.319zm-31.668.213l3.09 10.615h1.313l3.089-10.615h-1.42l-1.811 6.497c-.219.785-.413 1.464-.533 2.023-.15-.705-.296-1.446-.496-2.166l-1.775-6.354h-1.457zm8.697 0v10.615h1.386v-10.615h-1.386zm-45.513.143c-1.098 0-1.981.492-2.697 1.455-.717.963-1.102 2.358-1.102 4.189 0 1.765.355 3.113 1.065 4.047.709.935 1.657 1.42 2.806 1.42.911 0 1.655-.312 2.271-.888.616-.575 1.042-1.423 1.279-2.556l-1.385-.213c-.404 1.451-1.136 2.163-2.165 2.165-.659 0-1.21-.281-1.669-.888-.46-.606-.727-1.506-.781-2.697h6.035l.036-.497c0-1.792-.364-3.172-1.065-4.119-.701-.945-1.581-1.418-2.628-1.418zm-15.584.248l2.485 10.615h1.455l1.634-8.165.284 1.81 1.313 6.355h1.42l2.521-10.615h-1.313l-1.386 6.141-.462 2.06-.426-2.06-1.207-6.142h-1.42l-1.278 6.213-.426 2.201-.496-2.272-1.279-6.142h-1.419zm42.53.852c.69 0 1.258.333 1.704.994.306.452.506 1.14.567 2.059h-4.58c.044-.932.307-1.65.747-2.201.44-.55.943-.852 1.562-.852zm33.3 0c.688 0 1.258.333 1.704.994.308.452.506 1.14.569 2.059h-4.581c.044-.932.308-1.65.746-2.201.437-.55.943-.852 1.562-.852zm-60.246.39c.682 0 1.23.334 1.67.995.304.452.505 1.14.567 2.059h-4.51c.043-.932.275-1.687.711-2.236.434-.552.948-.818 1.562-.818zm8.805 0c.615 0 1.14.342 1.563.995.423.652.604 1.659.604 3.053 0 1.357-.2 2.37-.64 3.053-.439.684-.96 1.029-1.526 1.029-.416 0-.794-.14-1.136-.426-.344-.286-.595-.696-.782-1.242-.186-.546-.283-1.387-.283-2.485 0-1.294.231-2.263.674-2.947.443-.684.96-1.03 1.526-1.03zM18.594 68.048l-5.29 2.271 4.899 2.095 5.681-2.095-5.29-2.271zm-7.952 2.839l-.178 10.226 7.74 3.408v-10.616l-7.562-3.018zm15.904 0l-6.994 2.663v10.012l6.994-2.84v-9.835zM34.889 39.078l-5.326 2.271 4.935 2.095 5.681-2.095-5.29-2.271zm-7.385 3.018v10.224l6.604 1.917.213-9.302-6.817-2.839zm14.769.567l-6.249 2.663v10.047l6.249-2.84v-9.87zM9.877 53.468l-5.29 2.272 4.899 2.095 5.68-2.095-5.289-2.272zm-7.951 2.841l-.178 10.224 7.739 3.408v-10.615l-7.561-3.017zm15.904 0l-6.994 2.662v10.012l6.994-2.84v-9.834zM26.918 53.091l-5.29 2.271 4.899 2.094 5.68-2.094-5.289-2.271zm-7.952 2.839l-.177 10.225 7.739 3.408v-10.615l-7.562-3.018zm15.905 0l-6.994 2.663v10.012l6.994-2.841v-9.834zM51.533 39.078l-5.289 2.271 4.899 2.095 5.681-2.095-5.291-2.271zm-7.952 2.84l-.178 10.225 7.74 3.407v-10.614l-7.562-3.018zm15.904 0l-6.994 2.663v10.011l6.994-2.84v-9.834z' })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skill-box' },
+            _react2.default.createElement(
+              'svg',
+              { viewBox: '0 0 128 128' },
+              _react2.default.createElement('path', { fill: '#DD4814', d: 'M64.02 1.596c-24.36 0-44.107 19.747-44.107 44.107 0 24.356 19.747 44.105 44.107 44.105 24.359 0 44.106-19.749 44.106-44.105 0-24.36-19.747-44.107-44.106-44.107zm9.896 15.19c1.627-2.818 5.227-3.783 8.043-2.158 2.817 1.627 3.78 5.227 2.154 8.043-1.625 2.816-5.225 3.78-8.042 2.153-2.814-1.624-3.78-5.224-2.155-8.038zm-9.896 3.335c2.368 0 4.658.328 6.834.929.383 2.367 1.788 4.546 4.027 5.839 2.235 1.289 4.821 1.418 7.06.572 4.354 4.282 7.188 10.105 7.602 16.592l-8.392.123c-.774-8.786-8.146-15.675-17.131-15.675-2.589 0-5.044.575-7.246 1.6l-4.092-7.333c3.418-1.692 7.266-2.647 11.338-2.647zm-29.992 31.47c-3.253 0-5.89-2.637-5.89-5.888 0-3.254 2.636-5.891 5.89-5.891 3.252 0 5.889 2.636 5.889 5.891 0 3.251-2.636 5.888-5.889 5.888zm5.222.524c1.858-1.517 3.048-3.826 3.048-6.413 0-2.588-1.19-4.898-3.048-6.415 1.593-6.163 5.426-11.425 10.578-14.87l4.305 7.211c-4.423 3.112-7.313 8.254-7.313 14.074 0 5.818 2.89 10.959 7.313 14.07l-4.305 7.213c-5.154-3.443-8.988-8.705-10.578-14.87zm42.709 24.658c-2.816 1.626-6.416.662-8.041-2.156-1.627-2.814-.661-6.414 2.155-8.04 2.814-1.626 6.416-.66 8.041 2.154 1.627 2.818.661 6.416-2.155 8.042zm-.018-12.831c-2.238-.845-4.823-.719-7.06.572-2.239 1.296-3.643 3.473-4.027 5.839-2.176.602-4.466.931-6.834.931-4.071 0-7.919-.957-11.337-2.649l4.092-7.332c2.201 1.024 4.657 1.6 7.246 1.6 8.985 0 16.357-6.888 17.13-15.676l8.393.123c-.414 6.487-3.248 12.31-7.603 16.592zM16 121.659c-1 .055-.509.103-.823.144-.315.042-.738.082-1.122.123-.384.042-.832.076-1.271.103-.439.028-.882.042-1.293.042-1.947 0-3.383-.562-4.206-1.687-.823-1.124-1.285-2.99-1.285-5.595v-10.789h-3v11.612c0 1.454-.22 2.777.082 3.969.302 1.192.61 2.228 1.295 3.105.685.878 1.498 1.556 2.623 2.037 1.123.478 2.462.719 4.107.719 1.893 0 3.269-.123 4.708-.37 1.439-.246 2.184-.48 3.184-.699v-20.373h-3v17.659zM41.376 106.233c-.822-.987-1.83-1.754-3.023-2.303-1.193-.548-2.557-.823-4.093-.823-1.233 0-2.26.164-3.206.494-.946.329-1.054.645-2.054.945v-11.475l-4 .659v30.644c0 .247 2.025.494 3.396.74 1.372.247 2.96.37 4.742.37 1.646 0 3.133-.262 4.449-.782 1.316-.521 2.442-1.261 3.375-2.221.932-.96 1.653-2.132 2.161-3.516.507-1.386.762-2.943.762-4.67 0-1.645-.213-3.153-.638-4.524-.425-1.371-1.048-2.55-1.871-3.538zm-3.331 13.841c-1.234 1.358-2.879 2.037-4.937 2.037-1.042 0-1.848-.048-2.548-.144-.699-.096-.561-.199-1.561-.309v-13.534c1-.384 1.073-.754 1.951-1.11.878-.356 1.805-.535 2.849-.535 1.096 0 2.02.199 2.801.596.781.399 1.411.946 1.905 1.646.493.699.845 1.529 1.065 2.489.22.961.327 1.989.327 3.085 0 2.497-.619 4.422-1.852 5.779zM61 121.659c0 .055-.161.103-.476.144-.315.042-.563.082-.947.123-.384.042-.745.076-1.183.103-.438.028-.838.042-1.249.042-1.948 0-3.209-.562-4.032-1.687-.823-1.124-1.113-2.99-1.113-5.595v-10.789h-4v11.612c0 1.454.129 2.776.431 3.969.302 1.192.785 2.228 1.471 3.105.685.878 1.584 1.556 2.709 2.037 1.125.478 2.507.719 4.153.719 1.892 0 3.439-.123 4.879-.37 1.439-.246 2.357-.48 3.357-.699v-20.373h-4v17.659zM86.19 105.884c-.673-.864-1.57-1.535-2.694-2.015-1.125-.479-2.537-.72-4.237-.72-1.892 0-3.937.123-5.39.37-1.455.247-2.869.48-3.869.7v19.781h4v-17.067l.964-.123c.314-.055.813-.103 1.211-.145.397-.041.887-.076 1.326-.103.438-.027.899-.041 1.311-.041 1.014 0 1.882.13 2.567.391.687.26 1.244.679 1.655 1.254.412.575.613 1.329.792 2.262.177.932.174 2.057.174 3.372v10.2h4v-11.021c0-1.453-.127-2.783-.401-3.991-.275-1.205-.738-2.24-1.409-3.104zM103.609 121.679c-.685.26-1.618.391-2.797.391-.658 0-1.234-.083-1.727-.247-.494-.164-.905-.445-1.234-.843-.329-.398-1.008-.945-1.172-1.646-.165-.699-.679-1.584-.679-2.652v-9.682h9v-3h-9v-7.022l-3 .659v19.085c0 1.427.135 2.681.368 3.764.233 1.084.647 1.995 1.223 2.736.576.74 1.341 1.295 2.288 1.665.946.371 2.148.556 3.603.556 1.234 0 2.338-.151 3.312-.453s1.652-.547 2.037-.74l-.821-3.127c-.249.11-.716.295-1.401.556zM122 104v17.659c0 .055-.387.103-.701.144-.315.042-.678.082-1.061.123-.384.042-.801.076-1.239.103-.439.028-.867.042-1.278.042-1.947 0-3.498-.562-4.32-1.687-.823-1.124-1.4-2.989-1.4-5.595v-10.789h-3v11.612c0 1.454-.098 2.776.205 3.969.301 1.192.67 2.228 1.356 3.105.686.878 1.528 1.556 2.652 2.037 1.125.478 2.479.719 4.124.719 1.893 0 3.153-.123 4.593-.37 1.439-.246 2.05-.48 3.07-.699v-20.373h-3.001z' })
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'resume-right' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'projects'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'project' },
+          _react2.default.createElement(
+            'div',
+            { className: 'project-header' },
+            _react2.default.createElement(
+              'div',
+              { className: 'project-header-left' },
+              _react2.default.createElement(
+                'h2',
+                null,
+                'Bulletin ',
+                _react2.default.createElement(
+                  'em',
+                  null,
+                  '(Ruby on Rails, React Native)'
+                )
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                _react2.default.createElement(
+                  'em',
+                  null,
+                  'A location based, social media, messaging app.'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'project-header-right' },
+              _react2.default.createElement(
+                'a',
+                { href: 'https://ericwindmill.github.io/later-chat-demo/' },
+                _react2.default.createElement('i', { className: 'fa fa-link', 'aria-hidden': 'true' })
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://github.com/ericwindmill/later-chat' },
+                _react2.default.createElement('i', { className: 'fa fa-github', 'aria-hidden': 'true' })
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'ul',
+            null,
+            _react2.default.createElement(
+              'li',
+              null,
+              'Built a cross-platform, mobile app using React Native with a team of 4 engineers.'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Utilized Git flow to allow collaboration and speed up delivery of final product.'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Integrated Google Maps and Google Places API for geolocation based posting.'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Integrated Amazon Web Services S3 API to support image and video upload and hosting.'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'project' },
+          _react2.default.createElement(
+            'div',
+            { className: 'project-header' },
+            _react2.default.createElement(
+              'div',
+              { className: 'project-header-left' },
+              _react2.default.createElement(
+                'h2',
+                null,
+                'Sunset Synth ',
+                _react2.default.createElement(
+                  'em',
+                  null,
+                  '(JavaScript, HTML Canvas, Web Audio API)'
+                )
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                _react2.default.createElement(
+                  'em',
+                  null,
+                  'An in-browser synthesizer that records and loops user-created audio'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'project-header-right' },
+              _react2.default.createElement(
+                'a',
+                { href: 'https://rgkeith3.github.io/sunsetsynth/' },
+                _react2.default.createElement('i', { className: 'fa fa-link', 'aria-hidden': 'true' })
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://github.com/rgkeith3/sunsetsynth' },
+                _react2.default.createElement('i', { className: 'fa fa-github', 'aria-hidden': 'true' })
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'ul',
+            null,
+            _react2.default.createElement(
+              'li',
+              null,
+              'Utilized Web Audio API to create a playable, in-browser synthesizer that records and loops user input.'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Used HTML5 Canvas to create interactive and responsive audio visualizations'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'project' },
+          _react2.default.createElement(
+            'div',
+            { className: 'project-header' },
+            _react2.default.createElement(
+              'div',
+              { className: 'project-header-left' },
+              _react2.default.createElement(
+                'h2',
+                null,
+                'Greysweb.club ',
+                _react2.default.createElement(
+                  'em',
+                  null,
+                  '(Ruby on Rails, React, Redux, HTML, CSS)'
+                )
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                _react2.default.createElement(
+                  'em',
+                  null,
+                  'A single-page, tumblr inspired social media platform'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'project-header-right' },
+              _react2.default.createElement(
+                'a',
+                { href: 'https://www.greysweb.club/' },
+                _react2.default.createElement('i', { className: 'fa fa-link', 'aria-hidden': 'true' })
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://github.com/rgkeith3/tumblr-clone' },
+                _react2.default.createElement('i', { className: 'fa fa-github', 'aria-hidden': 'true' })
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'ul',
+            null,
+            _react2.default.createElement(
+              'li',
+              null,
+              'Built modular, reusable React components to show user uploads and allow for user interaction.'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Integrated Amazon Web Services S3 API to support limit-free upload and serving of various media types.'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Used CSS and JavaScript to create user-triggered events for smooth page transitions and website flow. '
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'h1',
+          null,
+          'experience'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'experience' },
+          _react2.default.createElement(
+            'h2',
+            null,
+            'Freelance Video Producer / Editor ',
+            _react2.default.createElement(
+              'em',
+              null,
+              '2016-2017'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            _react2.default.createElement(
+              'em',
+              null,
+              'Self-employed'
+            )
+          ),
+          _react2.default.createElement(
+            _reactRouterDom.Link,
+            { to: '/video' },
+            'Portfolio'
+          ),
+          _react2.default.createElement(
+            'ul',
+            null,
+            _react2.default.createElement(
+              'li',
+              null,
+              'Optimized self-directed workflow to efficiently produce and edit video projects for multiple million dollar corporations and non-profit organizations.'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Developed a post-production system for cutting turn-around in half on certain corporate jobs.'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Managed multiple different types of jobs, from pre-production, production and post-production for different clients weekly.'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'experience' },
+          _react2.default.createElement(
+            'h2',
+            null,
+            'Founder / Creative Director ',
+            _react2.default.createElement(
+              'em',
+              null,
+              '2014-2016'
+            )
+          ),
+          _react2.default.createElement(
+            _reactRouterDom.Link,
+            { to: '/video' },
+            'Portfolio'
+          ),
+          _react2.default.createElement(
+            'ul',
+            null,
+            _react2.default.createElement(
+              'li',
+              null,
+              'Optimized self-directed workflow to efficiently produce and edit video projects for multiple million dollar corporations and non-profit organizations.'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Developed a post-production system for cutting turn-around in half on certain corporate jobs.'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Managed multiple different types of jobs, from pre-production, production and post-production for different clients weekly.'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'h1',
+          null,
+          'education'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'education' },
+          _react2.default.createElement(
+            'h2',
+            null,
+            'App Academy ',
+            _react2.default.createElement(
+              'em',
+              null,
+              'Spring 2017'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Immersive, +1000 hours, software development course with focus on full stack web development'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'education' },
+          _react2.default.createElement(
+            'h2',
+            null,
+            'University of Tennessee ',
+            _react2.default.createElement(
+              'em',
+              null,
+              '2008-2012'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            _react2.default.createElement(
+              'em',
+              null,
+              'BS - Journalism and Electronic Media'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Program focusing on Journalism, multimedia production, media ethics and analysis'
+          )
+        )
+      )
+    )
+  );
+};
+
+exports.default = Resume;
+
+/***/ }),
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11373,7 +11904,7 @@ var Splash = function Splash() {
 exports.default = Splash;
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11410,7 +11941,7 @@ function camelize(string) {
 module.exports = camelize;
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11427,7 +11958,7 @@ module.exports = camelize;
 
 
 
-var camelize = __webpack_require__(99);
+var camelize = __webpack_require__(100);
 
 var msPattern = /^-ms-/;
 
@@ -11455,7 +11986,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11472,7 +12003,7 @@ module.exports = camelizeStyleName;
  * 
  */
 
-var isTextNode = __webpack_require__(109);
+var isTextNode = __webpack_require__(110);
 
 /*eslint-disable no-bitwise */
 
@@ -11500,7 +12031,7 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11633,7 +12164,7 @@ module.exports = createArrayFromMixed;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11654,8 +12185,8 @@ module.exports = createArrayFromMixed;
 
 var ExecutionEnvironment = __webpack_require__(6);
 
-var createArrayFromMixed = __webpack_require__(102);
-var getMarkupWrap = __webpack_require__(104);
+var createArrayFromMixed = __webpack_require__(103);
+var getMarkupWrap = __webpack_require__(105);
 var invariant = __webpack_require__(1);
 
 /**
@@ -11723,7 +12254,7 @@ module.exports = createNodesFromMarkup;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11824,7 +12355,7 @@ module.exports = getMarkupWrap;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11868,7 +12399,7 @@ function getUnboundedScrollPosition(scrollable) {
 module.exports = getUnboundedScrollPosition;
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11906,7 +12437,7 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11923,7 +12454,7 @@ module.exports = hyphenate;
 
 
 
-var hyphenate = __webpack_require__(106);
+var hyphenate = __webpack_require__(107);
 
 var msPattern = /^ms-/;
 
@@ -11950,7 +12481,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11980,7 +12511,7 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11997,7 +12528,7 @@ module.exports = isNode;
  * @typechecks
  */
 
-var isNode = __webpack_require__(108);
+var isNode = __webpack_require__(109);
 
 /**
  * @param {*} object The object to check.
@@ -12010,7 +12541,7 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12045,7 +12576,7 @@ function memoizeStringOnly(callback) {
 module.exports = memoizeStringOnly;
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12073,7 +12604,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = performance || {};
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12090,7 +12621,7 @@ module.exports = performance || {};
  * @typechecks
  */
 
-var performance = __webpack_require__(111);
+var performance = __webpack_require__(112);
 
 var performanceNow;
 
@@ -12112,7 +12643,7 @@ if (performance.now) {
 module.exports = performanceNow;
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12425,7 +12956,7 @@ var createBrowserHistory = function createBrowserHistory() {
 exports.default = createBrowserHistory;
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12755,7 +13286,7 @@ var createHashHistory = function createHashHistory() {
 exports.default = createHashHistory;
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12931,7 +13462,7 @@ var createMemoryHistory = function createMemoryHistory() {
 exports.default = createMemoryHistory;
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12988,10 +13519,10 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
 
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isarray = __webpack_require__(118)
+var isarray = __webpack_require__(119)
 
 /**
  * Expose `pathToRegexp`.
@@ -13420,7 +13951,7 @@ function pathToRegexp (path, keys, options) {
 
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = Array.isArray || function (arr) {
@@ -13429,7 +13960,7 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13498,7 +14029,7 @@ module.exports = checkPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13559,7 +14090,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13638,7 +14169,7 @@ var ARIADOMPropertyConfig = {
 module.exports = ARIADOMPropertyConfig;
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13667,7 +14198,7 @@ var AutoFocusUtils = {
 module.exports = AutoFocusUtils;
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13685,9 +14216,9 @@ module.exports = AutoFocusUtils;
 
 var EventPropagators = __webpack_require__(27);
 var ExecutionEnvironment = __webpack_require__(6);
-var FallbackCompositionState = __webpack_require__(129);
-var SyntheticCompositionEvent = __webpack_require__(172);
-var SyntheticInputEvent = __webpack_require__(175);
+var FallbackCompositionState = __webpack_require__(130);
+var SyntheticCompositionEvent = __webpack_require__(173);
+var SyntheticInputEvent = __webpack_require__(176);
 
 var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 var START_KEYCODE = 229;
@@ -14057,7 +14588,7 @@ var BeforeInputEventPlugin = {
 module.exports = BeforeInputEventPlugin;
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14077,10 +14608,10 @@ var CSSProperty = __webpack_require__(67);
 var ExecutionEnvironment = __webpack_require__(6);
 var ReactInstrumentation = __webpack_require__(11);
 
-var camelizeStyleName = __webpack_require__(100);
-var dangerousStyleValue = __webpack_require__(182);
-var hyphenateStyleName = __webpack_require__(107);
-var memoizeStringOnly = __webpack_require__(110);
+var camelizeStyleName = __webpack_require__(101);
+var dangerousStyleValue = __webpack_require__(183);
+var hyphenateStyleName = __webpack_require__(108);
+var memoizeStringOnly = __webpack_require__(111);
 var warning = __webpack_require__(2);
 
 var processStyleName = memoizeStringOnly(function (styleName) {
@@ -14272,7 +14803,7 @@ module.exports = CSSPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14623,7 +15154,7 @@ var ChangeEventPlugin = {
 module.exports = ChangeEventPlugin;
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14644,7 +15175,7 @@ var _prodInvariant = __webpack_require__(3);
 var DOMLazyTree = __webpack_require__(21);
 var ExecutionEnvironment = __webpack_require__(6);
 
-var createNodesFromMarkup = __webpack_require__(103);
+var createNodesFromMarkup = __webpack_require__(104);
 var emptyFunction = __webpack_require__(9);
 var invariant = __webpack_require__(1);
 
@@ -14677,7 +15208,7 @@ module.exports = Danger;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14708,7 +15239,7 @@ var DefaultEventPluginOrder = ['ResponderEventPlugin', 'SimpleEventPlugin', 'Tap
 module.exports = DefaultEventPluginOrder;
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14813,7 +15344,7 @@ var EnterLeaveEventPlugin = {
 module.exports = EnterLeaveEventPlugin;
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14913,7 +15444,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 module.exports = FallbackCompositionState;
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15154,7 +15685,7 @@ var HTMLDOMPropertyConfig = {
 module.exports = HTMLDOMPropertyConfig;
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15314,7 +15845,7 @@ module.exports = ReactChildReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15331,7 +15862,7 @@ module.exports = ReactChildReconciler;
 
 
 var DOMChildrenOperations = __webpack_require__(41);
-var ReactDOMIDOperations = __webpack_require__(139);
+var ReactDOMIDOperations = __webpack_require__(140);
 
 /**
  * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -15349,7 +15880,7 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15378,7 +15909,7 @@ var ReactNodeTypes = __webpack_require__(77);
 var ReactReconciler = __webpack_require__(22);
 
 if (process.env.NODE_ENV !== 'production') {
-  var checkReactTypeSpec = __webpack_require__(181);
+  var checkReactTypeSpec = __webpack_require__(182);
 }
 
 var emptyObject = __webpack_require__(24);
@@ -16257,7 +16788,7 @@ module.exports = ReactCompositeComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16276,15 +16807,15 @@ module.exports = ReactCompositeComponent;
 
 
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDefaultInjection = __webpack_require__(151);
+var ReactDefaultInjection = __webpack_require__(152);
 var ReactMount = __webpack_require__(76);
 var ReactReconciler = __webpack_require__(22);
 var ReactUpdates = __webpack_require__(13);
-var ReactVersion = __webpack_require__(166);
+var ReactVersion = __webpack_require__(167);
 
-var findDOMNode = __webpack_require__(183);
+var findDOMNode = __webpack_require__(184);
 var getHostComponentFromComposite = __webpack_require__(82);
-var renderSubtreeIntoContainer = __webpack_require__(190);
+var renderSubtreeIntoContainer = __webpack_require__(191);
 var warning = __webpack_require__(2);
 
 ReactDefaultInjection.inject();
@@ -16361,9 +16892,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 if (process.env.NODE_ENV !== 'production') {
   var ReactInstrumentation = __webpack_require__(11);
-  var ReactDOMUnknownPropertyHook = __webpack_require__(148);
-  var ReactDOMNullInputValuePropHook = __webpack_require__(142);
-  var ReactDOMInvalidARIAHook = __webpack_require__(141);
+  var ReactDOMUnknownPropertyHook = __webpack_require__(149);
+  var ReactDOMNullInputValuePropHook = __webpack_require__(143);
+  var ReactDOMInvalidARIAHook = __webpack_require__(142);
 
   ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
@@ -16374,7 +16905,7 @@ module.exports = ReactDOM;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16395,8 +16926,8 @@ module.exports = ReactDOM;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(4);
 
-var AutoFocusUtils = __webpack_require__(122);
-var CSSPropertyOperations = __webpack_require__(124);
+var AutoFocusUtils = __webpack_require__(123);
+var CSSPropertyOperations = __webpack_require__(125);
 var DOMLazyTree = __webpack_require__(21);
 var DOMNamespaces = __webpack_require__(42);
 var DOMProperty = __webpack_require__(16);
@@ -16406,13 +16937,13 @@ var EventPluginRegistry = __webpack_require__(31);
 var ReactBrowserEventEmitter = __webpack_require__(32);
 var ReactDOMComponentFlags = __webpack_require__(70);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDOMInput = __webpack_require__(140);
-var ReactDOMOption = __webpack_require__(143);
+var ReactDOMInput = __webpack_require__(141);
+var ReactDOMOption = __webpack_require__(144);
 var ReactDOMSelect = __webpack_require__(71);
-var ReactDOMTextarea = __webpack_require__(146);
+var ReactDOMTextarea = __webpack_require__(147);
 var ReactInstrumentation = __webpack_require__(11);
-var ReactMultiChild = __webpack_require__(159);
-var ReactServerRenderingTransaction = __webpack_require__(164);
+var ReactMultiChild = __webpack_require__(160);
+var ReactServerRenderingTransaction = __webpack_require__(165);
 
 var emptyFunction = __webpack_require__(9);
 var escapeTextContentForBrowser = __webpack_require__(35);
@@ -17381,7 +17912,7 @@ module.exports = ReactDOMComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17420,7 +17951,7 @@ module.exports = ReactDOMContainerInfo;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17485,7 +18016,7 @@ _assign(ReactDOMEmptyComponent.prototype, {
 module.exports = ReactDOMEmptyComponent;
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17509,7 +18040,7 @@ var ReactDOMFeatureFlags = {
 module.exports = ReactDOMFeatureFlags;
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17548,7 +18079,7 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17839,7 +18370,7 @@ module.exports = ReactDOMInput;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17938,7 +18469,7 @@ module.exports = ReactDOMInvalidARIAHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17987,7 +18518,7 @@ module.exports = ReactDOMNullInputValuePropHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18116,7 +18647,7 @@ module.exports = ReactDOMOption;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18134,7 +18665,7 @@ module.exports = ReactDOMOption;
 
 var ExecutionEnvironment = __webpack_require__(6);
 
-var getNodeForCharacterOffset = __webpack_require__(187);
+var getNodeForCharacterOffset = __webpack_require__(188);
 var getTextContentAccessor = __webpack_require__(83);
 
 /**
@@ -18333,7 +18864,7 @@ var ReactDOMSelection = {
 module.exports = ReactDOMSelection;
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18503,7 +19034,7 @@ module.exports = ReactDOMTextComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18669,7 +19200,7 @@ module.exports = ReactDOMTextarea;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18811,7 +19342,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18929,7 +19460,7 @@ module.exports = ReactDOMUnknownPropertyHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18946,12 +19477,12 @@ module.exports = ReactDOMUnknownPropertyHook;
 
 
 
-var ReactInvalidSetStateWarningHook = __webpack_require__(157);
-var ReactHostOperationHistoryHook = __webpack_require__(155);
+var ReactInvalidSetStateWarningHook = __webpack_require__(158);
+var ReactHostOperationHistoryHook = __webpack_require__(156);
 var ReactComponentTreeHook = __webpack_require__(8);
 var ExecutionEnvironment = __webpack_require__(6);
 
-var performanceNow = __webpack_require__(112);
+var performanceNow = __webpack_require__(113);
 var warning = __webpack_require__(2);
 
 var hooks = [];
@@ -19294,7 +19825,7 @@ module.exports = ReactDebugTool;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19367,7 +19898,7 @@ var ReactDefaultBatchingStrategy = {
 module.exports = ReactDefaultBatchingStrategy;
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19383,25 +19914,25 @@ module.exports = ReactDefaultBatchingStrategy;
 
 
 
-var ARIADOMPropertyConfig = __webpack_require__(121);
-var BeforeInputEventPlugin = __webpack_require__(123);
-var ChangeEventPlugin = __webpack_require__(125);
-var DefaultEventPluginOrder = __webpack_require__(127);
-var EnterLeaveEventPlugin = __webpack_require__(128);
-var HTMLDOMPropertyConfig = __webpack_require__(130);
-var ReactComponentBrowserEnvironment = __webpack_require__(132);
-var ReactDOMComponent = __webpack_require__(135);
+var ARIADOMPropertyConfig = __webpack_require__(122);
+var BeforeInputEventPlugin = __webpack_require__(124);
+var ChangeEventPlugin = __webpack_require__(126);
+var DefaultEventPluginOrder = __webpack_require__(128);
+var EnterLeaveEventPlugin = __webpack_require__(129);
+var HTMLDOMPropertyConfig = __webpack_require__(131);
+var ReactComponentBrowserEnvironment = __webpack_require__(133);
+var ReactDOMComponent = __webpack_require__(136);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDOMEmptyComponent = __webpack_require__(137);
-var ReactDOMTreeTraversal = __webpack_require__(147);
-var ReactDOMTextComponent = __webpack_require__(145);
-var ReactDefaultBatchingStrategy = __webpack_require__(150);
-var ReactEventListener = __webpack_require__(154);
-var ReactInjection = __webpack_require__(156);
-var ReactReconcileTransaction = __webpack_require__(162);
-var SVGDOMPropertyConfig = __webpack_require__(167);
-var SelectEventPlugin = __webpack_require__(168);
-var SimpleEventPlugin = __webpack_require__(169);
+var ReactDOMEmptyComponent = __webpack_require__(138);
+var ReactDOMTreeTraversal = __webpack_require__(148);
+var ReactDOMTextComponent = __webpack_require__(146);
+var ReactDefaultBatchingStrategy = __webpack_require__(151);
+var ReactEventListener = __webpack_require__(155);
+var ReactInjection = __webpack_require__(157);
+var ReactReconcileTransaction = __webpack_require__(163);
+var SVGDOMPropertyConfig = __webpack_require__(168);
+var SelectEventPlugin = __webpack_require__(169);
+var SimpleEventPlugin = __webpack_require__(170);
 
 var alreadyInjected = false;
 
@@ -19458,7 +19989,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19483,7 +20014,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19521,7 +20052,7 @@ var ReactEventEmitterMixin = {
 module.exports = ReactEventEmitterMixin;
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19546,7 +20077,7 @@ var ReactDOMComponentTree = __webpack_require__(5);
 var ReactUpdates = __webpack_require__(13);
 
 var getEventTarget = __webpack_require__(52);
-var getUnboundedScrollPosition = __webpack_require__(105);
+var getUnboundedScrollPosition = __webpack_require__(106);
 
 /**
  * Find the deepest React component completely containing the root of the
@@ -19681,7 +20212,7 @@ var ReactEventListener = {
 module.exports = ReactEventListener;
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19720,7 +20251,7 @@ var ReactHostOperationHistoryHook = {
 module.exports = ReactHostOperationHistoryHook;
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19759,7 +20290,7 @@ var ReactInjection = {
 module.exports = ReactInjection;
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19802,7 +20333,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19818,7 +20349,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 
 
 
-var adler32 = __webpack_require__(180);
+var adler32 = __webpack_require__(181);
 
 var TAG_END = /\/?>/;
 var COMMENT_START = /^<\!\-\-/;
@@ -19857,7 +20388,7 @@ var ReactMarkupChecksum = {
 module.exports = ReactMarkupChecksum;
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19881,10 +20412,10 @@ var ReactInstrumentation = __webpack_require__(11);
 
 var ReactCurrentOwner = __webpack_require__(14);
 var ReactReconciler = __webpack_require__(22);
-var ReactChildReconciler = __webpack_require__(131);
+var ReactChildReconciler = __webpack_require__(132);
 
 var emptyFunction = __webpack_require__(9);
-var flattenChildren = __webpack_require__(184);
+var flattenChildren = __webpack_require__(185);
 var invariant = __webpack_require__(1);
 
 /**
@@ -20313,7 +20844,7 @@ module.exports = ReactMultiChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20413,7 +20944,7 @@ module.exports = ReactOwner;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20444,7 +20975,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20628,7 +21159,7 @@ module.exports = ReactReconcileTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20645,7 +21176,7 @@ module.exports = ReactReconcileTransaction;
 
 
 
-var ReactOwner = __webpack_require__(160);
+var ReactOwner = __webpack_require__(161);
 
 var ReactRef = {};
 
@@ -20722,7 +21253,7 @@ ReactRef.detachRefs = function (instance, element) {
 module.exports = ReactRef;
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20743,7 +21274,7 @@ var _assign = __webpack_require__(4);
 var PooledClass = __webpack_require__(17);
 var Transaction = __webpack_require__(34);
 var ReactInstrumentation = __webpack_require__(11);
-var ReactServerUpdateQueue = __webpack_require__(165);
+var ReactServerUpdateQueue = __webpack_require__(166);
 
 /**
  * Executed within the scope of the `Transaction` instance. Consider these as
@@ -20818,7 +21349,7 @@ module.exports = ReactServerRenderingTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20963,7 +21494,7 @@ module.exports = ReactServerUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20982,7 +21513,7 @@ module.exports = ReactServerUpdateQueue;
 module.exports = '15.5.4';
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21289,7 +21820,7 @@ Object.keys(ATTRS).forEach(function (key) {
 module.exports = SVGDOMPropertyConfig;
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21485,7 +22016,7 @@ var SelectEventPlugin = {
 module.exports = SelectEventPlugin;
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21507,17 +22038,17 @@ var _prodInvariant = __webpack_require__(3);
 var EventListener = __webpack_require__(60);
 var EventPropagators = __webpack_require__(27);
 var ReactDOMComponentTree = __webpack_require__(5);
-var SyntheticAnimationEvent = __webpack_require__(170);
-var SyntheticClipboardEvent = __webpack_require__(171);
+var SyntheticAnimationEvent = __webpack_require__(171);
+var SyntheticClipboardEvent = __webpack_require__(172);
 var SyntheticEvent = __webpack_require__(15);
-var SyntheticFocusEvent = __webpack_require__(174);
-var SyntheticKeyboardEvent = __webpack_require__(176);
+var SyntheticFocusEvent = __webpack_require__(175);
+var SyntheticKeyboardEvent = __webpack_require__(177);
 var SyntheticMouseEvent = __webpack_require__(33);
-var SyntheticDragEvent = __webpack_require__(173);
-var SyntheticTouchEvent = __webpack_require__(177);
-var SyntheticTransitionEvent = __webpack_require__(178);
+var SyntheticDragEvent = __webpack_require__(174);
+var SyntheticTouchEvent = __webpack_require__(178);
+var SyntheticTransitionEvent = __webpack_require__(179);
 var SyntheticUIEvent = __webpack_require__(29);
-var SyntheticWheelEvent = __webpack_require__(179);
+var SyntheticWheelEvent = __webpack_require__(180);
 
 var emptyFunction = __webpack_require__(9);
 var getEventCharCode = __webpack_require__(50);
@@ -21719,7 +22250,7 @@ module.exports = SimpleEventPlugin;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21763,7 +22294,7 @@ SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 module.exports = SyntheticAnimationEvent;
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21806,7 +22337,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21847,7 +22378,7 @@ SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface
 module.exports = SyntheticCompositionEvent;
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21888,7 +22419,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 module.exports = SyntheticDragEvent;
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21929,7 +22460,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 module.exports = SyntheticFocusEvent;
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21971,7 +22502,7 @@ SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 module.exports = SyntheticInputEvent;
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21990,7 +22521,7 @@ module.exports = SyntheticInputEvent;
 var SyntheticUIEvent = __webpack_require__(29);
 
 var getEventCharCode = __webpack_require__(50);
-var getEventKey = __webpack_require__(185);
+var getEventKey = __webpack_require__(186);
 var getEventModifierState = __webpack_require__(51);
 
 /**
@@ -22060,7 +22591,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 module.exports = SyntheticKeyboardEvent;
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22110,7 +22641,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 module.exports = SyntheticTouchEvent;
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22154,7 +22685,7 @@ SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 module.exports = SyntheticTransitionEvent;
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22213,7 +22744,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 module.exports = SyntheticWheelEvent;
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22262,7 +22793,7 @@ function adler32(data) {
 module.exports = adler32;
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22280,7 +22811,7 @@ module.exports = adler32;
 
 var _prodInvariant = __webpack_require__(3);
 
-var ReactPropTypeLocationNames = __webpack_require__(161);
+var ReactPropTypeLocationNames = __webpack_require__(162);
 var ReactPropTypesSecret = __webpack_require__(78);
 
 var invariant = __webpack_require__(1);
@@ -22355,7 +22886,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22440,7 +22971,7 @@ module.exports = dangerousStyleValue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22506,7 +23037,7 @@ module.exports = findDOMNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22588,7 +23119,7 @@ module.exports = flattenChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22695,7 +23226,7 @@ function getEventKey(nativeEvent) {
 module.exports = getEventKey;
 
 /***/ }),
-/* 186 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22741,7 +23272,7 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-/* 187 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22820,7 +23351,7 @@ function getNodeForCharacterOffset(root, offset) {
 module.exports = getNodeForCharacterOffset;
 
 /***/ }),
-/* 188 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22926,7 +23457,7 @@ function getVendorPrefixedEventName(eventName) {
 module.exports = getVendorPrefixedEventName;
 
 /***/ }),
-/* 189 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22957,7 +23488,7 @@ function quoteAttributeValueForBrowser(value) {
 module.exports = quoteAttributeValueForBrowser;
 
 /***/ }),
-/* 190 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22978,7 +23509,7 @@ var ReactMount = __webpack_require__(76);
 module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ }),
-/* 191 */
+/* 192 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22986,7 +23517,7 @@ module.exports = ReactMount.renderSubtreeIntoContainer;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_createBrowserHistory__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_createBrowserHistory__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_history_createBrowserHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_router__ = __webpack_require__(12);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -23038,7 +23569,7 @@ BrowserRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (BrowserRouter);
 
 /***/ }),
-/* 192 */
+/* 193 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23046,7 +23577,7 @@ BrowserRouter.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_createHashHistory__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_createHashHistory__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_createHashHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_history_createHashHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_router__ = __webpack_require__(12);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -23097,7 +23628,7 @@ HashRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (HashRouter);
 
 /***/ }),
-/* 193 */
+/* 194 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23106,7 +23637,7 @@ HashRouter.propTypes = {
 
 
 /***/ }),
-/* 194 */
+/* 195 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23183,7 +23714,7 @@ NavLink.defaultProps = {
 /* harmony default export */ __webpack_exports__["a"] = (NavLink);
 
 /***/ }),
-/* 195 */
+/* 196 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23192,7 +23723,7 @@ NavLink.defaultProps = {
 
 
 /***/ }),
-/* 196 */
+/* 197 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23201,7 +23732,7 @@ NavLink.defaultProps = {
 
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23210,7 +23741,7 @@ NavLink.defaultProps = {
 
 
 /***/ }),
-/* 198 */
+/* 199 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23219,7 +23750,7 @@ NavLink.defaultProps = {
 
 
 /***/ }),
-/* 199 */
+/* 200 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23228,7 +23759,7 @@ NavLink.defaultProps = {
 
 
 /***/ }),
-/* 200 */
+/* 201 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23237,7 +23768,7 @@ NavLink.defaultProps = {
 
 
 /***/ }),
-/* 201 */
+/* 202 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23246,7 +23777,7 @@ NavLink.defaultProps = {
 
 
 /***/ }),
-/* 202 */
+/* 203 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23255,7 +23786,7 @@ NavLink.defaultProps = {
 
 
 /***/ }),
-/* 203 */
+/* 204 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23263,7 +23794,7 @@ NavLink.defaultProps = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_createMemoryHistory__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_createMemoryHistory__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_createMemoryHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_history_createMemoryHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Router__ = __webpack_require__(56);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -23315,7 +23846,7 @@ MemoryRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (MemoryRouter);
 
 /***/ }),
-/* 204 */
+/* 205 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23401,7 +23932,7 @@ Prompt.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Prompt);
 
 /***/ }),
-/* 205 */
+/* 206 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23487,7 +24018,7 @@ Redirect.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Redirect);
 
 /***/ }),
-/* 206 */
+/* 207 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23663,7 +24194,7 @@ StaticRouter.childContextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (StaticRouter);
 
 /***/ }),
-/* 207 */
+/* 208 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23749,7 +24280,7 @@ Switch.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Switch);
 
 /***/ }),
-/* 208 */
+/* 209 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23757,7 +24288,7 @@ Switch.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Route__ = __webpack_require__(90);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23794,7 +24325,7 @@ var withRouter = function withRouter(Component) {
 /* harmony default export */ __webpack_exports__["a"] = (withRouter);
 
 /***/ }),
-/* 209 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23858,7 +24389,7 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23976,7 +24507,7 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 211 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23992,11 +24523,11 @@ module.exports = PooledClass;
 
 
 
-var PooledClass = __webpack_require__(210);
+var PooledClass = __webpack_require__(211);
 var ReactElement = __webpack_require__(18);
 
 var emptyFunction = __webpack_require__(9);
-var traverseAllChildren = __webpack_require__(221);
+var traverseAllChildren = __webpack_require__(222);
 
 var twoArgumentPooler = PooledClass.twoArgumentPooler;
 var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -24172,7 +24703,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 /***/ }),
-/* 212 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24901,7 +25432,7 @@ module.exports = ReactClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 213 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25077,7 +25608,7 @@ module.exports = ReactDOMFactories;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 214 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25101,7 +25632,7 @@ var factory = __webpack_require__(64);
 module.exports = factory(isValidElement);
 
 /***/ }),
-/* 215 */
+/* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25123,7 +25654,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 216 */
+/* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25170,7 +25701,7 @@ ReactPureComponent.prototype.isPureReactComponent = true;
 module.exports = ReactPureComponent;
 
 /***/ }),
-/* 217 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25189,7 +25720,7 @@ module.exports = ReactPureComponent;
 module.exports = '15.5.4';
 
 /***/ }),
-/* 218 */
+/* 219 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25208,7 +25739,7 @@ module.exports = '15.5.4';
 var _prodInvariant = __webpack_require__(19);
 
 var ReactPropTypeLocationNames = __webpack_require__(93);
-var ReactPropTypesSecret = __webpack_require__(215);
+var ReactPropTypesSecret = __webpack_require__(216);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -25282,7 +25813,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 219 */
+/* 220 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25308,7 +25839,7 @@ function getNextDebugID() {
 module.exports = getNextDebugID;
 
 /***/ }),
-/* 220 */
+/* 221 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25352,7 +25883,7 @@ module.exports = onlyChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 221 */
+/* 222 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25375,7 +25906,7 @@ var REACT_ELEMENT_TYPE = __webpack_require__(91);
 
 var getIteratorFn = __webpack_require__(94);
 var invariant = __webpack_require__(1);
-var KeyEscapeUtils = __webpack_require__(209);
+var KeyEscapeUtils = __webpack_require__(210);
 var warning = __webpack_require__(2);
 
 var SEPARATOR = '.';
@@ -25534,7 +26065,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 222 */
+/* 223 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25610,7 +26141,7 @@ var resolvePathname = function resolvePathname(to) {
 module.exports = resolvePathname;
 
 /***/ }),
-/* 223 */
+/* 224 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25654,6 +26185,95 @@ var valueEqual = function valueEqual(a, b) {
 };
 
 exports.default = valueEqual;
+
+/***/ }),
+/* 225 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(7);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Web = function Web() {
+  return _react2.default.createElement(
+    'div',
+    { className: 'portfolio' },
+    _react2.default.createElement(
+      'div',
+      { className: 'portfolio-header' },
+      _react2.default.createElement(
+        'h1',
+        null,
+        'a collection of web projects i\'ve built'
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'portfolio-item' },
+      _react2.default.createElement(
+        'div',
+        { className: 'portfolio-desc' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Bulletin'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Bulletin is a location based social networking app where friends can leave a message for you at a certain location. You then get a notification that there are messages waiting for you, but you can\'t check the message until you visit the location where it was left. This project was built by a team of 4 engineers including myself, using React Native and Google Places API.'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'portfolio-ex' },
+        _react2.default.createElement(
+          'video',
+          { autoplay: true, loop: true },
+          _react2.default.createElement('source', { src: '/videos/bulletin.webm', type: 'video/webm' })
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'portfolio-item' },
+      _react2.default.createElement(
+        'div',
+        { className: 'portfolio-desc' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Sunset Synth'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Sunset Synth is a synthesizer and looper that was built entirely with vanilla JavaScript. Utilizing the Web Audio API, users can play four different synth-waves and record loops, entirely inside the browser. The visualizer was made using the Web Audio Analyser Node and HTML canvas.'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'portfolio-ex' },
+        _react2.default.createElement(
+          'video',
+          { autoplay: true, loop: true },
+          _react2.default.createElement('source', { src: '/videos/sunsetsynth.webm', type: 'video/webm' })
+        )
+      )
+    )
+  );
+};
+
+exports.default = Web;
 
 /***/ })
 /******/ ]);
