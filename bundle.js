@@ -11888,7 +11888,7 @@ var Splash = function Splash() {
       _react2.default.createElement(
         'div',
         { className: 'center' },
-        _react2.default.createElement('img', { className: 'head', src: '../images/avatar.png', alt: 'Grey\'s Head' }),
+        _react2.default.createElement('img', { className: 'head', src: 'images/avatar.png', alt: 'Grey\'s Head' }),
         _react2.default.createElement('div', { id: 'shadow' }),
         _react2.default.createElement(
           _reactRouterDom.Link,
