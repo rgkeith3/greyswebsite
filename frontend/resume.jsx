@@ -6,10 +6,18 @@ const Resume = () => {
     <div className='resume'>
       <div className='resume-header'>
         <h1>grey.KEITH</h1>
-        <i className="fa fa-github fa-2x" aria-hidden="true"></i>
-        <i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-        <i className="fa fa-angellist fa-2x" aria-hidden="true"></i>
-        <i className="fa fa-youtube fa-2x" aria-hidden="true"></i>
+        <a href="https://github.com/rgkeith3">
+          <i className="fa fa-github fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/grey-keith-82b9122b">
+          <i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://angel.co/grey-keith?public_profile=1">
+          <i className="fa fa-angellist fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCm3U6IFkySd7TFKcVFhi2EQ">
+          <i className="fa fa-youtube fa-2x" aria-hidden="true"></i>
+        </a>
       </div>
       <div className='resume-body'>
         <div className='resume-left'>
@@ -149,7 +157,7 @@ const Resume = () => {
             </ul>
           </div>
           <h1>experience</h1>
-          <div className='experience'>
+          <div className='project'>
             <h2>Freelance Video Producer / Editor <em>2016-2017</em></h2>
             <p><em>Self-employed</em></p>
             <Link to='/video'>Portfolio</Link>
@@ -159,7 +167,7 @@ const Resume = () => {
               <li>Managed multiple different types of jobs, from pre-production, production and post-production for different clients weekly.</li>
             </ul>
           </div>
-          <div className='experience'>
+          <div className='project'>
             <h2>Founder / Creative Director <em>2014-2016</em></h2>
             <Link to='/video'>Portfolio</Link>
             <ul>
@@ -169,11 +177,11 @@ const Resume = () => {
             </ul>
           </div>
           <h1>education</h1>
-          <div className='education'>
+          <div className='project'>
             <h2>App Academy <em>Spring 2017</em></h2>
             <p>Immersive, +1000 hours, software development course with focus on full stack web development</p>
           </div>
-          <div className='education'>
+          <div className='project'>
             <h2>University of Tennessee <em>2008-2012</em></h2>
             <p><em>BS - Journalism and Electronic Media</em></p>
             <p>Program focusing on Journalism, multimedia production, media ethics and analysis</p>

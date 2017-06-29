@@ -3,7 +3,8 @@ import { HashRouter as Router, Route, Link } from 'react-router-dom';
 
 import Splash from './splash';
 import Resume from './resume';
-import Web from './web'
+import Web from './web';
+import Video from './video';
 
 const NavBar = ({path}) => {
   console.log(path)
@@ -61,7 +62,7 @@ const App = ({location}) => (
       }}/>
     <Route path='/about' component={About} />
     <Route path='/resume' component={Resume} />
-    <Route path='/video' render={() => <h1>Video</h1>} />
+    <Route path='/video' component={Video} />
     <Route path='/web' component={Web} />
   </div>
 )

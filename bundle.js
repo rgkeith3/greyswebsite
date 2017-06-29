@@ -11071,6 +11071,10 @@ var _web = __webpack_require__(225);
 
 var _web2 = _interopRequireDefault(_web);
 
+var _video = __webpack_require__(226);
+
+var _video2 = _interopRequireDefault(_video);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var NavBar = function NavBar(_ref) {
@@ -11222,13 +11226,7 @@ var App = function App(_ref2) {
       } }),
     _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: About }),
     _react2.default.createElement(_reactRouterDom.Route, { path: '/resume', component: _resume2.default }),
-    _react2.default.createElement(_reactRouterDom.Route, { path: '/video', render: function render() {
-        return _react2.default.createElement(
-          'h1',
-          null,
-          'Video'
-        );
-      } }),
+    _react2.default.createElement(_reactRouterDom.Route, { path: '/video', component: _video2.default }),
     _react2.default.createElement(_reactRouterDom.Route, { path: '/web', component: _web2.default })
   );
 };
@@ -11309,10 +11307,26 @@ var Resume = function Resume() {
         null,
         'grey.KEITH'
       ),
-      _react2.default.createElement('i', { className: 'fa fa-github fa-2x', 'aria-hidden': 'true' }),
-      _react2.default.createElement('i', { className: 'fa fa-linkedin-square fa-2x', 'aria-hidden': 'true' }),
-      _react2.default.createElement('i', { className: 'fa fa-angellist fa-2x', 'aria-hidden': 'true' }),
-      _react2.default.createElement('i', { className: 'fa fa-youtube fa-2x', 'aria-hidden': 'true' })
+      _react2.default.createElement(
+        'a',
+        { href: 'https://github.com/rgkeith3' },
+        _react2.default.createElement('i', { className: 'fa fa-github fa-2x', 'aria-hidden': 'true' })
+      ),
+      _react2.default.createElement(
+        'a',
+        { href: 'https://www.linkedin.com/in/grey-keith-82b9122b' },
+        _react2.default.createElement('i', { className: 'fa fa-linkedin-square fa-2x', 'aria-hidden': 'true' })
+      ),
+      _react2.default.createElement(
+        'a',
+        { href: 'https://angel.co/grey-keith?public_profile=1' },
+        _react2.default.createElement('i', { className: 'fa fa-angellist fa-2x', 'aria-hidden': 'true' })
+      ),
+      _react2.default.createElement(
+        'a',
+        { href: 'https://www.youtube.com/channel/UCm3U6IFkySd7TFKcVFhi2EQ' },
+        _react2.default.createElement('i', { className: 'fa fa-youtube fa-2x', 'aria-hidden': 'true' })
+      )
     ),
     _react2.default.createElement(
       'div',
@@ -11670,7 +11684,7 @@ var Resume = function Resume() {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'experience' },
+          { className: 'project' },
           _react2.default.createElement(
             'h2',
             null,
@@ -11717,7 +11731,7 @@ var Resume = function Resume() {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'experience' },
+          { className: 'project' },
           _react2.default.createElement(
             'h2',
             null,
@@ -11760,7 +11774,7 @@ var Resume = function Resume() {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'education' },
+          { className: 'project' },
           _react2.default.createElement(
             'h2',
             null,
@@ -11779,7 +11793,7 @@ var Resume = function Resume() {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'education' },
+          { className: 'project' },
           _react2.default.createElement(
             'h2',
             null,
@@ -26213,7 +26227,7 @@ var Web = function Web() {
       _react2.default.createElement(
         'h1',
         null,
-        'a collection of web projects i\'ve built'
+        'a collection of web projects I\'ve built'
       )
     ),
     _react2.default.createElement(
@@ -26238,7 +26252,7 @@ var Web = function Web() {
         { className: 'portfolio-ex' },
         _react2.default.createElement(
           'video',
-          { autoplay: true, loop: true },
+          { autoPlay: true, loop: true },
           _react2.default.createElement('source', { src: '/videos/bulletin.webm', type: 'video/webm' })
         )
       )
@@ -26265,8 +26279,35 @@ var Web = function Web() {
         { className: 'portfolio-ex' },
         _react2.default.createElement(
           'video',
-          { autoplay: true, loop: true },
+          { autoPlay: true, loop: true },
           _react2.default.createElement('source', { src: '/videos/sunsetsynth.webm', type: 'video/webm' })
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'portfolio-item' },
+      _react2.default.createElement(
+        'div',
+        { className: 'portfolio-desc' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'GreysWeb.club'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Grey\'s Web Club is a social media platform where users can share text posts, images, links, audio and video files. Users can follow their friends, like their posts, explore all posts, and search for users or posts. It was built with a React/Redux front-end and a Ruby on Rails backend'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'portfolio-ex' },
+        _react2.default.createElement(
+          'video',
+          { autoPlay: true, loop: true },
+          _react2.default.createElement('source', { src: '/videos/greyswebclub.webm', type: 'video/webm' })
         )
       )
     )
@@ -26274,6 +26315,136 @@ var Web = function Web() {
 };
 
 exports.default = Web;
+
+/***/ }),
+/* 226 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(7);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactIframe = __webpack_require__(227);
+
+var _reactIframe2 = _interopRequireDefault(_reactIframe);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Video = function Video() {
+  return _react2.default.createElement(
+    'div',
+    { className: 'portfolio' },
+    _react2.default.createElement(
+      'div',
+      { className: 'portfolio-header' },
+      _react2.default.createElement(
+        'h1',
+        null,
+        'a collection of video projects I\'ve made'
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'portfolio-item' },
+      _react2.default.createElement(
+        'div',
+        { className: 'portfolio-desc' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Work Reel'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'A collection of some of the things I worked on in the past year or so.'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'portfolio-ex-video' },
+        _react2.default.createElement(_reactIframe2.default, {
+          url: 'https://www.youtube.com/embed/RP4TzdtMpZE',
+          position: 'relative',
+          height: '315px',
+          width: '560px',
+          allowFullScreen: true })
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'portfolio-item' },
+      _react2.default.createElement(
+        'div',
+        { className: 'portfolio-desc' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Soap or Die'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Soap or Die is a documentary about the last professional practitioner of the sport of Soaping. Once a fad in the 90\'s, Soaping never died in the eyes of Ryan Jaunzemis. Ryan now lives in Las Vegas where he soaps and continues to live the rockstar lifestyle. Soap or Die was in the official selection for the Vegas Indie Film Festival'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'portfolio-ex-video' },
+        _react2.default.createElement(_reactIframe2.default, {
+          url: 'https://www.youtube.com/embed/VeQKVQONJ1c',
+          position: 'relative',
+          height: '315px',
+          width: '560px',
+          allowFullScreen: true })
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'portfolio-item' },
+      _react2.default.createElement(
+        'div',
+        { className: 'portfolio-desc' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'We Make Money'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'We Make Money was an experiment in form. It was a proof of concept for Agency 2625\'s product the "micro-campaign." All videos were made in one shoot, making use of recycling and remixing footage to populate a feed with video content.'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'portfolio-ex-video' },
+        _react2.default.createElement(_reactIframe2.default, {
+          url: 'https://www.youtube.com/embed/videoseries?list=PL9ktS8JpfjGLYC6Wj95P_BJrvdBYlMDux',
+          position: 'relative',
+          height: '315px',
+          width: '560px',
+          allowFullScreen: true })
+      )
+    )
+  );
+};
+
+exports.default = Video;
+
+/***/ }),
+/* 227 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:true});var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor}}();var _react=__webpack_require__(7);var _react2=_interopRequireDefault(_react);var _propTypes=__webpack_require__(10);var _propTypes2=_interopRequireDefault(_propTypes);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj}}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function")}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called")}return call&&(typeof call==="object"||typeof call==="function")?call:self}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass)}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass}var Iframe=function(_PureComponent){_inherits(Iframe,_PureComponent);function Iframe(){_classCallCheck(this,Iframe);return _possibleConstructorReturn(this,(Iframe.__proto__||Object.getPrototypeOf(Iframe)).apply(this,arguments))}_createClass(Iframe,[{key:"render",value:function render(){return _react2.default.createElement("iframe",{frameBorder:"0",src:this.props.url,target:"_parent",allowFullScreen:this.props.allowFullScreen||false,style:Object.assign({},{position:this.props.position||"absolute",display:this.props.display||"block",height:this.props.height||"100%",width:this.props.width||"100%"},this.props.styles||{}),height:this.props.height||"100%",width:this.props.width||"100%"})}}]);return Iframe}(_react.PureComponent);Iframe.propTypes={url:_propTypes2.default.string.isRequired,width:_propTypes2.default.string,position:_propTypes2.default.string,display:_propTypes2.default.string,height:_propTypes2.default.string,styles:_propTypes2.default.object,allowFullScreen:_propTypes2.default.bool};exports.default=Iframe;
 
 /***/ })
 /******/ ]);
