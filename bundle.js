@@ -26242,6 +26242,20 @@ var Web = function Web() {
           'Bulletin'
         ),
         _react2.default.createElement(
+          'div',
+          { className: 'portfolio-links' },
+          _react2.default.createElement(
+            'a',
+            { href: 'https://ericwindmill.github.io/later-chat-demo/' },
+            _react2.default.createElement('i', { className: 'fa fa-link', 'aria-hidden': 'true' })
+          ),
+          _react2.default.createElement(
+            'a',
+            { href: 'https://github.com/ericwindmill/later-chat' },
+            _react2.default.createElement('i', { className: 'fa fa-github', 'aria-hidden': 'true' })
+          )
+        ),
+        _react2.default.createElement(
           'p',
           null,
           'Bulletin is a location based social networking app where friends can leave a message for you at a certain location. You then get a notification that there are messages waiting for you, but you can\'t check the message until you visit the location where it was left. This project was built by a team of 4 engineers including myself, using React Native and Google Places API.'
@@ -26269,6 +26283,20 @@ var Web = function Web() {
           'Sunset Synth'
         ),
         _react2.default.createElement(
+          'div',
+          { className: 'portfolio-links' },
+          _react2.default.createElement(
+            'a',
+            { href: 'https://rgkeith3.github.io/sunsetsynth/' },
+            _react2.default.createElement('i', { className: 'fa fa-link', 'aria-hidden': 'true' })
+          ),
+          _react2.default.createElement(
+            'a',
+            { href: 'https://github.com/rgkeith3/sunsetsynth' },
+            _react2.default.createElement('i', { className: 'fa fa-github', 'aria-hidden': 'true' })
+          )
+        ),
+        _react2.default.createElement(
           'p',
           null,
           'Sunset Synth is a synthesizer and looper that was built entirely with vanilla JavaScript. Utilizing the Web Audio API, users can play four different synth-waves and record loops, entirely inside the browser. The visualizer was made using the Web Audio Analyser Node and HTML canvas.'
@@ -26294,6 +26322,20 @@ var Web = function Web() {
           'h1',
           null,
           'GreysWeb.club'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'portfolio-links' },
+          _react2.default.createElement(
+            'a',
+            { href: 'https://www.greysweb.club/' },
+            _react2.default.createElement('i', { className: 'fa fa-link', 'aria-hidden': 'true' })
+          ),
+          _react2.default.createElement(
+            'a',
+            { href: 'https://github.com/rgkeith3/tumblr-clone' },
+            _react2.default.createElement('i', { className: 'fa fa-github', 'aria-hidden': 'true' })
+          )
         ),
         _react2.default.createElement(
           'p',

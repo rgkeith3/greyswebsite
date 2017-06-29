@@ -227,7 +227,7 @@ a:hover {
 }
 
 .resume i {
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .resume-body {
@@ -320,6 +320,10 @@ a:hover {
 
 .portfolio-desc {
   flex: 1;
+}
+
+.portfolio-links i {
+  margin-right: 20px;
 }
 
 .portfolio-ex {
