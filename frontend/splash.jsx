@@ -17,7 +17,7 @@ const Splash = () => {
       </div>
       <div className='container'>
         <div className='center'>
-          <img className='head' src="images/avatar.png" alt="Grey's Head"></img>
+          <img className='head' src="../images/avatar.png" alt="Grey's Head"></img>
           <div id='shadow'></div>
           <Link id='about' to='/about'>about</Link>
           <Link id='resume' to='/resume'>resume</Link>
