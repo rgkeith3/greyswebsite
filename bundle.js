@@ -11088,7 +11088,7 @@ var NavBar = function NavBar(_ref) {
     _react2.default.createElement(
       _reactRouterDom.Link,
       { to: '/' },
-      _react2.default.createElement('img', { className: 'nav-head', src: '/images/avatar.png', alt: 'Grey\'s Head' })
+      _react2.default.createElement('img', { className: 'nav-head', src: 'images/avatar.png', alt: 'Grey\'s Head' })
     ),
     _react2.default.createElement(
       _reactRouterDom.Link,
@@ -11888,7 +11888,7 @@ var Splash = function Splash() {
       _react2.default.createElement(
         'div',
         { className: 'center' },
-        _react2.default.createElement('img', { className: 'head', src: '/images/avatar.png', alt: 'Grey\'s Head' }),
+        _react2.default.createElement('img', { className: 'head', src: 'images/avatar.png', alt: 'Grey\'s Head' }),
         _react2.default.createElement('div', { id: 'shadow' }),
         _react2.default.createElement(
           _reactRouterDom.Link,
@@ -26253,7 +26253,7 @@ var Web = function Web() {
         _react2.default.createElement(
           'video',
           { autoPlay: true, loop: true },
-          _react2.default.createElement('source', { src: '/videos/bulletin.webm', type: 'video/webm' })
+          _react2.default.createElement('source', { src: 'videos/bulletin.webm', type: 'video/webm' })
         )
       )
     ),
@@ -26280,7 +26280,7 @@ var Web = function Web() {
         _react2.default.createElement(
           'video',
           { autoPlay: true, loop: true },
-          _react2.default.createElement('source', { src: '/videos/sunsetsynth.webm', type: 'video/webm' })
+          _react2.default.createElement('source', { src: 'videos/sunsetsynth.webm', type: 'video/webm' })
         )
       )
     ),
@@ -26307,7 +26307,7 @@ var Web = function Web() {
         _react2.default.createElement(
           'video',
           { autoPlay: true, loop: true },
-          _react2.default.createElement('source', { src: '/videos/greyswebclub.webm', type: 'video/webm' })
+          _react2.default.createElement('source', { src: 'videos/greyswebclub.webm', type: 'video/webm' })
         )
       )
     )

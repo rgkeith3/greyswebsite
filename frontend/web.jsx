@@ -13,7 +13,7 @@ const Web = () => {
         </div>
         <div className='portfolio-ex'>
           <video autoPlay loop>
-            <source src='/videos/bulletin.webm' type='video/webm' />
+            <source src='videos/bulletin.webm' type='video/webm' />
           </video>
         </div>
       </div>
@@ -24,7 +24,7 @@ const Web = () => {
         </div>
         <div className='portfolio-ex'>
           <video autoPlay loop>
-            <source src='/videos/sunsetsynth.webm' type='video/webm' />
+            <source src='videos/sunsetsynth.webm' type='video/webm' />
           </video>
         </div>
       </div>
@@ -35,7 +35,7 @@ const Web = () => {
         </div>
         <div className='portfolio-ex'>
           <video autoPlay loop>
-            <source src='/videos/greyswebclub.webm' type='video/webm' />
+            <source src='videos/greyswebclub.webm' type='video/webm' />
           </video>
         </div>
       </div>

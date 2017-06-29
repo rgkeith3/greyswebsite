@@ -12,7 +12,7 @@ const NavBar = ({path}) => {
   return (
     <div className='nav-bar'>
       <Link to='/'>
-        <img className='nav-head' src="/images/avatar.png" alt="Grey's Head"></img>
+        <img className='nav-head' src="images/avatar.png" alt="Grey's Head"></img>
       </Link>
       <Link to='/about'>about</Link>
       <Link to='/resume'>resume</Link>
